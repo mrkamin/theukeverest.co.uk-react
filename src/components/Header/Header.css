@@ -2,3 +2,24 @@
     background: #5dc9db;
     color: #1f1f38 ;
 }
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer-socials a {
+    background:  #1f1f38;
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+  }
+  
+  .footer-socials a:hover {
+    background: transparent;
+    color: #1f1f38;
+    border-color: #1f1f38;
+  }
