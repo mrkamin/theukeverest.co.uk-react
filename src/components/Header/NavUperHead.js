@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import StarSvg from "../StarSvg";
 import { FaFacebook } from "react-icons/fa";
-import { ImInstagram } from "react-icons/im";
 
 const NavUperHead = () => {
   return (
     <>
-      <div className="d-flex align-items-center gap-2 p-1 justify-content-end">
+      <div className="container d-flex align-items-center gap-2 p-1 justify-content-end">
         {" "}
         <div className="d-flex align-items-center">
           <StarSvg />
@@ -42,13 +41,6 @@ const NavUperHead = () => {
             rel="noopener noreferrer"
           >
             <FaFacebook />
-          </a>
-          <a
-            href="https://www.instagram.com/rafikambiz/?hl=en"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <ImInstagram />
           </a>
         </div>
       </div>
