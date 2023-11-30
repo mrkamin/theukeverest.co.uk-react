@@ -1,16 +1,19 @@
 import NavUperHead from "./NavUperHead";
+import IMG from "../assets/Logo2.png";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
-      <div className="container">
-        <NavUperHead class="collapse navbar-collapse" id="navbarSupportedContent"/>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              Navbar
-            </a>
+      <div className="px-5 headernav">
+        <NavUperHead />
+        <nav className="navbar navbar-expand-lg p-0 m-0">
+          <div className="container-fluid">
+            <Link className="navbar-brand" to="/">
+              <img src={IMG} alt="Logo" height={80} />
+            </Link>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -18,68 +21,36 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    Home
-                  </a>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <Link className="nav-link  fw-medium" aria-current="page" to="air-conditioning">
+                    Air-Conditioning
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Link
-                  </a>
+                <li className="nav-item">
+                  <Link className="nav-link  fw-medium" to="commercial-refrigeration">
+                    Commercial Refrigeration
+                  </Link>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
+                <li className="nav-item">
+                  <Link className="nav-link  fw-medium" to="repair-maintenance">
+                    Repair and Maintenance
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true">
-                    Disabled
+                <li className="nav-item">
+                  <Link className="nav-link  fw-medium" to="our-projects">
+                    Our Projects
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link bg-white rounded fw-medium text-center" href="#">
+                    24/7 Support
                   </a>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
             </div>
           </div>
         </nav>

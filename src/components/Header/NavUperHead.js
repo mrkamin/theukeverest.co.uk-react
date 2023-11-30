@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 const NavUperHead = () => {
   return (
     <>
-      <div className="navuperhead d-flex align-items-center gap-2 p-1 justify-content-end">
+      <div className="navuperhead d-flex align-items-center gap-2 justify-content-end">
         {" "}
         <div className="d-flex align-items-center review">
           <StarSvg />
