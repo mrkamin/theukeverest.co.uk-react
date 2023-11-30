@@ -5,45 +5,60 @@ import { FaFacebook } from "react-icons/fa";
 const NavUperHead = () => {
   return (
     <>
-      <div className="navuperhead d-flex align-items-center gap-2 justify-content-end">
+      <div className="navuperhead d-flex justify-content-end">
         {" "}
-        <div className="d-flex align-items-center review">
-          <StarSvg />
-          <p className="p-0 m-0">Review</p>
-        </div>
-        <ul className="list-group list-group-horizontal d-flex align-itmes-center p-0 m-0">
-          <li className="list-group-item">
-            <Link to="aboutus" className="list-group-item-action active">
-              About Us
-            </Link>
-          </li>
-          <li className="list-group-item">
-            <Link to="testimonials" className="list-group-item-action active">
-              Testimonials
-            </Link>
-          </li>
-          <li className="list-group-item">
-            <Link to="blog" className="list-group-item-action active">
-              Blog
-            </Link>
-          </li>
-          <li className="list-group-item">
-            <Link to="contactus" className="list-group-item-action active">
-              Contact Us
-            </Link>
-          </li>
-        </ul>
-        
-        <div className="footer-socials d-flex align-items-center gap-1">
-        <p className="p-0 m-0">0797578699</p>
-          <a
-            href="https://www.facebook.com/mrkamin2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaFacebook />
-          </a>
-        </div>
+        <nav className="navbar navbar-expand-lg p-0 m-0">
+          <div className="container-fluid">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <div className="d-flex align-items-center review">
+                <StarSvg />
+                <p className="p-0 m-0">Review</p>
+              </div>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link  fw-medium"
+                    aria-current="page"
+                    to="about-us"
+                  >
+                    About Us
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link  fw-medium" to="testimonials">
+                    Testimonials
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link  fw-medium" to="blog">
+                    Blog
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link  fw-medium" to="contact-us">
+                    Contact Us
+                  </Link>
+                </li>
+                <li className="footer-socials d-flex nav-link bg-white rounded-5 fw-medium justify-content-center align-items-center gap-3">
+                <p className="p-0 m-0">0797578699</p>
+                <a
+                  href="https://www.facebook.com/mrkamin2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook />
+                </a>
+                </li>
+              </ul>
+              <div >
+                
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </>
   );
