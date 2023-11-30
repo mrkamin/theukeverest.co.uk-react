@@ -2,6 +2,10 @@
     background: #5dc9db;
     color: #1f1f38 ;
 }
+
+.navuperhead {
+    padding:  5px 12px !important;
+}
   
   .footer-socials a {
     background:  #fff;
@@ -65,6 +69,31 @@
   @media screen and (max-width: 500px) {
    
     .navuperhead {
-        display: none !important;
+        height: 220px;
+        align-items: start !important;
+    }
+
+    .list-group {
+        display: flex !important;
+        flex-direction: column !important;
+        border-radius: 0.5rem !important;
+        overflow: hidden !important;
+    }
+
+    .list-group-item {
+        border-radius: 0 !important;
+    }
+
+    .review {
+        flex-direction: row;
+        position: absolute; 
+        top: 8px;
+        left: 20;
+    }
+
+    .footer-socials {
+        position: absolute;
+        top: 3px;
+        left: 0;
     }
   }
