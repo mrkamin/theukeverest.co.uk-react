@@ -23,15 +23,25 @@ const Navbar = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link  fw-medium" aria-current="page" to="air-conditioning">
+                  <Link
+                    className="nav-link  fw-medium"
+                    aria-current="page"
+                    to="air-conditioning"
+                  >
                     Air-Conditioning
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fw-medium" to="commercial-refrigeration">
+                  <Link
+                    className="nav-link  fw-medium"
+                    to="commercial-refrigeration"
+                  >
                     Commercial Refrigeration
                   </Link>
                 </li>
@@ -46,9 +56,12 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link bg-white rounded fw-medium text-center" href="#">
+                  <Link
+                    className="nav-link bg-white rounded fw-medium text-center"
+                    to="contactus"
+                  >
                     24/7 Support
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

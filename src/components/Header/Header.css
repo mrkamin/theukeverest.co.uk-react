@@ -30,7 +30,7 @@
 .navbar-nav {
  width: 100%;
  display: flex !important;
- justify-content: end !important;
+ justify-content: flex-end !important;
 
 }
 

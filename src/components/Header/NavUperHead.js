@@ -13,22 +13,22 @@ const NavUperHead = () => {
         </div>
         <ul className="list-group list-group-horizontal d-flex align-itmes-center p-0 m-0">
           <li className="list-group-item">
-            <Link to="/aboutus" className="list-group-item-action active">
+            <Link to="aboutus" className="list-group-item-action active">
               About Us
             </Link>
           </li>
           <li className="list-group-item">
-            <Link to="/testimonials" className="list-group-item-action active">
+            <Link to="testimonials" className="list-group-item-action active">
               Testimonials
             </Link>
           </li>
           <li className="list-group-item">
-            <Link to="/blog" className="list-group-item-action active">
+            <Link to="blog" className="list-group-item-action active">
               Blog
             </Link>
           </li>
           <li className="list-group-item">
-            <Link to="/contactus" className="list-group-item-action active">
+            <Link to="contactus" className="list-group-item-action active">
               Contact Us
             </Link>
           </li>
