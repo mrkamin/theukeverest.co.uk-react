@@ -1,6 +1,6 @@
 const StarSvg = () => {
   return (
-    <>
+    <div className="d-flex">
       <svg
         width="20"
         height="20"
@@ -56,7 +56,7 @@ const StarSvg = () => {
           fill="#1f1f38"
         />
       </svg>
-    </>
+    </div>
   );
 };
 

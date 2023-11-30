@@ -17,3 +17,54 @@
     color: #1f1f38;
     border-color: #1f1f38;
   }
+
+  @media screen and (max-width: 1200px) {
+    .review {
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+   
+    .navuperhead {
+        flex-direction: column;
+        position: relative !important;
+        height: 90px;
+        width: 100%;
+    }
+    .review {
+        flex-direction: row;
+        position: absolute; 
+        top: 8px;
+        left: 49%;
+    }
+
+    .footer-socials {
+        position: absolute;
+        top: 3px;
+        left: 25%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+   
+    .review {
+        flex-direction: row;
+        position: absolute; 
+        top: 8px;
+        left: 49%;
+    }
+
+    .footer-socials {
+        position: absolute;
+        top: 3px;
+        left: 18%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+   
+    .navuperhead {
+        display: none !important;
+    }
+  }
