@@ -1,11 +1,39 @@
 .banner-img {
     width: 100%;
     object-fit: cover;
-    height: 500px;
+    height: 550px;
 }
 
 .banner-msg {
-    top: 150px;
-    color: #fff;
+    top: 200px;
+    color: #000000;
     width: 100%;
+}
+
+.overlay {
+    background-color:#5dc8db57 ;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1366px) {
+    .banner-img {
+        height: 380px;
+    }
+
+    .banner-msg {
+        top: 120px;
+    }
+
+    .overlay {
+        background-color:#5dc8db57 ;
+        height: 380px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+    }
 }

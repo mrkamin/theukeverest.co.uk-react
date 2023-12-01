@@ -28,10 +28,11 @@
       }
     .navuperhead {
         position: absolute;
-        top: 280px;
+        top: 298px;
         background-color: #5dc9db;
         width: 100%;
         left: 0;
+        z-index: 1;
       }
 
   .review {
