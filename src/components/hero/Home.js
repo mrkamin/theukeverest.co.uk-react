@@ -4,6 +4,7 @@ import AIRCONDITIONIMG from "../assets/air conditioning.png";
 import ACOUTDOOR from '../assets/outdoor unit ac.jpg'
 import { GiAutoRepair } from "react-icons/gi";
 import "./home.css";
+import HomeSectionThree from "./HomeSectionThree";
 
 const Home = () => {
   return (
@@ -63,8 +64,8 @@ const Home = () => {
         </div>
         <Link to="repair-maintenance" className="read-more p-2 rounded-5">Read more</Link>
       </div>
-     
       </div>
+      <HomeSectionThree />
     </div>
   );
 };

@@ -1,80 +1,102 @@
 .banner-img {
-    width: 100%;
-    object-fit: cover;
-    height: 550px;
+  width: 100%;
+  object-fit: cover;
+  height: 550px;
 }
 
 .banner-msg {
-    top: 200px;
-    color: #000000;
-    width: 100%;
+  top: 200px;
+  color: #000000;
+  width: 100%;
 }
 
 .overlay {
-    background-color:#5dc8db57 ;
-    height: 550px;
+  background-color: #5dc8db57;
+  height: 550px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.cart-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cart-items {
+  border: 3px solid #5dc9db;
+  border-radius: 1rem;
+}
+.cart-item {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.cart-icon {
+  background-color: #5dc9db;
+  fill: #5dc9db;
+}
+
+.cart-item svg {
+  width: 100% !important;
+  height: 50px;
+}
+
+.read-more {
+  background-color: #5dc9db;
+  width: 40%;
+}
+
+.HomeSectionThree {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 16px 300px;
+}
+
+.homeSectionThreeItem {
+  border: 3px solid #5dc9db;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 1366px) {
+  .banner-img {
+    height: 380px;
+  }
+
+  .banner-msg {
+    top: 120px;
+  }
+
+  .overlay {
+    background-color: #5dc8db57;
+    height: 380px;
     width: 100%;
     position: absolute;
     top: 0;
     z-index: 2;
-}
+  }
 
-.cart-container {
+  .cart-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    grid-template-columns: 1fr 1fr;
+  }
 
-.cart-items {
-    border: 5px solid #5dc9db ;
-    border-radius: 1rem;
-}
-.cart-item {
+  .HomeSectionThree {
     display: grid;
-    grid-template-columns: 20% 80%;
-}
-
-.cart-icon {
-background-color: #5dc9db;
-fill: #5dc9db;
-}
-
-.cart-item svg {
-    width: 100% !important;
-    height: 50px;
-}
-
-.read-more {
-    background-color: #5dc9db;
-    width: 150px;
-}
-
-@media screen and (max-width: 1366px) {
-    .banner-img {
-        height: 380px;
-    }
-
-    .banner-msg {
-        top: 120px;
-    }
-
-    .overlay {
-        background-color:#5dc8db57 ;
-        height: 380px;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        z-index: 2;
-    }
-
-    .cart-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+    grid-template-columns: 1fr 1fr;
+    padding: 16px 20px;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .cart-container {
-        display: grid;
-        grid-template-columns: 1fr ;
-    }
+  .cart-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .HomeSectionThree {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
