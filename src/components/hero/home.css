@@ -8,15 +8,16 @@
   top: 200px;
   color: #000000;
   width: 100%;
+  z-index: 2;
 }
 
 .overlay {
-  background-color: #5dc8db57;
+  background-color: #5dc8db6c;
   height: 550px;
   width: 100%;
   position: absolute;
   top: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .cart-container {
