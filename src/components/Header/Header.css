@@ -1,11 +1,9 @@
 .header {
   background: #5dc9db;
-  color: #1f1f38;
   padding: 5px 50px;
 }
 
 .footer-socials a {
-  color: #1f1f38;
   border-radius: 0.4rem;
   display: flex;
   border: 1px solid transparent;
@@ -13,7 +11,6 @@
 
 .footer-socials a:hover {
   background: transparent;
-  border-color: #1f1f38;
 }
 
 .navbar-nav {
