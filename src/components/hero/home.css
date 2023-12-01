@@ -59,6 +59,10 @@
   border-radius: 1rem;
 }
 
+.swiper {
+  align-items: center !important;
+}
+
 @media screen and (max-width: 1366px) {
   .banner-img {
     height: 380px;
@@ -99,4 +103,16 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .swiper-slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .swiper-slide {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
 }
