@@ -6,6 +6,7 @@ import IMG4 from "../assets/Hoshizaki-Ice-Machine-1.png";
 import IMG5 from "../assets/Mitsubishi-Electric-Air-Conditioning.png";
 import IMG7 from "../assets/Williams-Refrigeration.png";
 import IMG8 from "../assets/True-Refrigeration-1.png";
+import Footer from "./Footer";
 
 const HomeSectionThree = () => {
   return (
@@ -77,6 +78,7 @@ const HomeSectionThree = () => {
             <img src={IMG1} alt="swiper image1" />
           </div>
       </div>
+      <Footer />
     </>
   );
 };
