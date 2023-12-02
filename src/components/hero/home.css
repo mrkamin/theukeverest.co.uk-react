@@ -40,19 +40,18 @@
 
 .read-more {
   background-color: #5dc9db;
-  width: 30%;
+  width: 40%;
 }
 
 .HomeSectionThree {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 16px 300px;
+  padding: 16px 150px;
 }
 
 .homeSectionThreeItem {
   border: 3px solid #5dc9db;
   border-radius: 1rem;
-  padding: 10px 5px !important;
 }
 
 .swiper {
