@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className=" headernav">
+      <div>
         <NavUperHead />
         <nav className="navbar navbar-expand-lg p-0 m-0">
           <div className="container-fluid">

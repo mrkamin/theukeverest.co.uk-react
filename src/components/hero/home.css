@@ -40,7 +40,7 @@
 
 .read-more {
   background-color: #5dc9db;
-  width: 40%;
+  width: 30%;
 }
 
 .HomeSectionThree {
@@ -52,6 +52,7 @@
 .homeSectionThreeItem {
   border: 3px solid #5dc9db;
   border-radius: 1rem;
+  padding: 10px 5px !important;
 }
 
 .swiper {
@@ -88,6 +89,7 @@
     grid-template-columns: 1fr 1fr;
     padding: 5px 20px;
   }
+  
 }
 
 @media screen and (max-width: 992px) {
@@ -135,10 +137,6 @@
     align-items: center !important;
   }
 
-  .read-more {
-    width: 100%;
-  }
-
   .cart-item svg {
     width: 30% !important;
   }
@@ -160,6 +158,15 @@
   .swiper-slide {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 339px) {
+  .banner-img {
+    height: 430px;
+  }
+
+  .overlay {
+    height: 430px;
   }
 }
 @media screen and (max-width: 300px) {
@@ -206,7 +213,16 @@
     text-align: left ;
   }
 }
-@media screen and (max-width: 220px) {
+@media screen and (max-width: 264px) {
+  .banner-img {
+    height: 490px;
+  }
+
+  .overlay {
+    height: 490px;
+  }
+}
+@media screen and (max-width: 240px) {
   .banner-img {
     height: 500px;
   }
@@ -215,7 +231,7 @@
     height: 500px;
   }
   .banner-msg {
-    top: 40px;
+    top: 10px;
   }
 
   .cart-container {

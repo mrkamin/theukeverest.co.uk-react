@@ -13,7 +13,7 @@ const HomeSectionThree = () => {
     <>
       <div className="HomeSectionThree gap-3">
         <div className="w-100 homeSectionThreeItem p-4">
-          <h2>Air-Conditioning</h2>
+          <h3>Air-Conditioning</h3>
           <p className="text-align-justify">
             We offer a{" "}
             <span className="brand-color">
@@ -35,7 +35,7 @@ const HomeSectionThree = () => {
           </Link>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
-          <h2>Commercial Refrigeration Europe</h2>
+          <h3>Commercial Refrigeration Europe</h3>
           <p className="text-align-justify">
             <span className="brand-color">
               Installation, repair and maintenance.
@@ -53,7 +53,7 @@ const HomeSectionThree = () => {
           </Link>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
-          <h2>Fully Accredited Services</h2>
+          <h3>Fully Accredited Services</h3>
           <p className="text-align-justify">
             Our aim is to provide enhanced working environments so that
             businesses can operate at their best – without the pains of slow and

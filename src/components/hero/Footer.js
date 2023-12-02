@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
-          <h2>Air Conditioning & Refrigeration Eroupe</h2>
+          <h3>Air Conditioning & Refrigeration Eroupe</h3>
           <p className="text-align-justify">
             At The UK Everest Ltd, we supply air conditioning and refrigeration
             services for commercial businesses and estate agencies. We’ve
@@ -47,7 +47,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
-          <h2>Air Conditioning & Refrigeration Services</h2>
+          <h3>Air Conditioning & Refrigeration Services</h3>
           <ul className=" d-flex flex-column gap-3">
             <li>
               <Link to="about-us" className="">

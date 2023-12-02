@@ -11,9 +11,16 @@
   
 }
 
+@media screen and (max-width: 1300px) {
+  .header {
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 992px) {
   .header {
     padding: 0 0;
+    font-size: 19px;
   }
   .navuperhead {
     position: absolute;
@@ -30,5 +37,29 @@
 
   .navbar {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 287px) {
+  .navuperhead {
+    top: 333px;
+  }
+}
+
+@media screen and (max-width: 276px) {
+  .navuperhead {
+    top: 361px;
+  }
+}
+
+@media screen and (max-width: 228px) {
+  .navuperhead {
+    top: 408px;
+  }
+}
+
+@media screen and (max-width: 199px) {
+  .navuperhead {
+    top: 430px;
   }
 }
