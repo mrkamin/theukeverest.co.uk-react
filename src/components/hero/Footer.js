@@ -13,13 +13,20 @@ const Footer = () => {
         <p className="fs-5 p-0 m-0">or Call us on 0787351724</p>
       </div>
       <div className="HomeSectionThree gap-3">
-        <div className="w-100 homeSectionThreeItem p-4">
-          <img src={IMG1} alt="logo2" height={150} className="pb-3" />
+        <div className="homeSectionThreeItem p-4 text-start d-flex flex-column justify-content-start align-items-start">
+          <img
+            src={IMG1}
+            alt="logo2"
+            height={100}
+            className="pb-3 logoimage"
+          />
           <h3>Call: 0203 488 1889</h3>
           <p className="text-align-justify">
             Address: Office 7, 35/37 Ludgate Hill London, EC4M 7JN
           </p>
-          <h6>Email: info@theukeverest.co.uk</h6>
+          <p>
+            Email: <span className="email">info@theukeverest.co.uk</span>
+          </p>
           <a
             href="https://www.facebook.com/mrkamin2"
             target="_blank"
