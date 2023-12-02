@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 :root {
-  --brand-color: #5dc9db;
+  --brand-color: #5dc8db7a;
 }
 
 * {
@@ -12,11 +12,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #1f1f38;
+  color: #1f1f38 !important;
 }
 
-.brand-color {
-  color: var(--brand-color);
+span {
+  background-color: var(--brand-color);
   font-size: larger;
   font-weight: 700;
 }
@@ -25,4 +25,8 @@ a {
   text-decoration: none;
   font-weight: 900;
   color: #1f1f38;
+}
+
+li {
+  list-style-type: none;
 }
