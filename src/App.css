@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 :root {
-  --brand-color: #5dc8db7a;
+  --brand-color: #5dc8dbb6;
 }
 
 * {
@@ -19,12 +19,22 @@ span {
   background-color: var(--brand-color);
   font-size: larger;
   font-weight: 700;
+  border: none;
+  border-radius: 0.3rem;
+  padding:  0 5px;
 }
 
 a {
   text-decoration: none;
   font-weight: 900;
   color: #1f1f38;
+  border: 1px solid transparent;
+}
+
+a:hover {
+  background-color: transparent;
+  border-color: var(--brand-color);
+  color: var(--brand-color);
 }
 
 li {

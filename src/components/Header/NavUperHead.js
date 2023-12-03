@@ -42,12 +42,15 @@ const NavUperHead = () => {
                     Contact Us
                   </Link>
                 </li>
-                <li className="footer-socials d-flex nav-link bg-white rounded-5 fw-medium justify-content-center align-items-center gap-3">
+                <li className=" d-flex nav-link bg-white rounded-5 fw-medium justify-content-center align-items-center gap-3">
                   <p className="p-0 m-0">0797578699</p>
+                </li>
+                <li className="nav-item px-1">
                   <a
                     href="https://www.facebook.com/mrkamin2"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="footer-socials"
                   >
                     <FaFacebook />
                   </a>

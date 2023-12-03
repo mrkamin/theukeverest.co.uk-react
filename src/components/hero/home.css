@@ -63,6 +63,27 @@
   background-color: #5dc9db;
 }
 
+.footer-socials {
+  display: flex;
+  background-color: #1f1f38 ;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  border: 1px solid transparent;
+}
+
+.footer-socials:hover {
+  background: transparent;
+  color: #1f1f38;
+  border-color: #1f1f38;
+}
+
+.footer-container2 {
+  height: 50px;
+  background-color: #5dc9db;
+}
+
+
 @media screen and (max-width: 1366px) {
   .banner-img {
     height: 380px;
@@ -88,6 +109,15 @@
     grid-template-columns: 1fr 1fr;
     padding: 5px 20px;
   }
+  .footer-container2 {
+    height: 120px;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+
+  .footer-social-2 {
+    gap: 20px !important; 
+  }
   
 }
 
@@ -103,6 +133,7 @@
   }
 
   .swiper-slide {
+    height: 80px !important;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -158,6 +189,13 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .footer-container2 {
+    height: 150px;
+  }
+
+  .footer-social-2 {
+    gap: 5px !important; 
+  }
 }
 @media screen and (max-width: 339px) {
   .banner-img {
@@ -166,6 +204,15 @@
 
   .overlay {
     height: 430px;
+  }
+  .footer-container2 {
+    height: 250px;
+  }
+
+  .footer-social-2 {
+    flex-direction: column;
+    gap: 5px !important; 
+    padding-bottom: 5px;
   }
 }
 @media screen and (max-width: 300px) {
@@ -211,6 +258,11 @@
     height: 70px;
     text-align: left ;
   }
+  .footer-container2 {
+    height: 300px;
+    background-color: #5dc9db;
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 264px) {
   .banner-img {
@@ -219,6 +271,20 @@
 
   .overlay {
     height: 490px;
+  }
+
+  .footer-container2 {
+    height: 400px;
+    background-color: #5dc9db;
+    flex-direction: column;
+    margin-top: 5px;
+    padding-top: 20px;
+  }
+
+  .footer-social-2 {
+    flex-direction: column;
+    gap: 5px !important; 
+    padding-bottom: 5px;
   }
 }
 @media screen and (max-width: 240px) {
@@ -267,5 +333,17 @@
 
   .email {
     font-size: 13px;
+  }
+  .footer-container2 {
+    height: 410px;
+    background-color: #5dc9db;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+  .footer-social-2 {
+    flex-direction: column;
+    gap: 5px !important; 
+    padding-bottom: 5px;
   }
 }
