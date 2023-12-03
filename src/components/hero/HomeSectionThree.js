@@ -6,6 +6,7 @@ import IMG4 from "../assets/Hoshizaki-Ice-Machine-1.png";
 import IMG5 from "../assets/Mitsubishi-Electric-Air-Conditioning.png";
 import IMG7 from "../assets/Williams-Refrigeration.png";
 import IMG8 from "../assets/True-Refrigeration-1.png";
+import IMG9 from "../assets/Accreditations (1).png"
 import Footer from "./Footer";
 
 const HomeSectionThree = () => {
@@ -54,6 +55,7 @@ const HomeSectionThree = () => {
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Fully Accredited Services</h3>
+          <img src={IMG9} alt="Accredation" height={150} className="accredation"/>
           <p className="text-align-justify">
             Our aim is to provide enhanced working environments so that
             businesses can operate at their best – without the pains of slow and

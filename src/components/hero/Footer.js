@@ -1,6 +1,7 @@
 import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import IMG1 from "../assets/Logo-2.png";
+import IMG9 from "../assets/Accreditations (1).png";
 
 const Footer = () => {
   return (
@@ -41,6 +42,12 @@ const Footer = () => {
           <Link to="about-us" className=" read-more p-2 rounded-5 px-4">
             Read more{">"}
           </Link>
+          <img
+            src={IMG9}
+            alt="Accredation"
+            height={150}
+            className="accredation"
+          />
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Air Conditioning & Refrigeration Services</h3>
@@ -84,11 +91,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-container2 d-flex align-items-center justify-content-between px-5">
-        <p className="p-0 m-0">@2023 The Uk Everest LTD. Company number 12435t643. Office 7, 35-7 Ludgate . All Rights Reserved</p>
+        <p className="p-0 m-0">
+          @2023 The Uk Everest LTD. Company number 12435t643. Office 7, 35-7
+          Ludgate . All Rights Reserved
+        </p>
         <div className="d-flex align-items-center gap-5 footer-social-2">
-        <p className="p-0 m-0">Privace Policy</p>
-        <p className="p-0 m-0">Terms & Conditions</p>
-        <a
+          <p className="p-0 m-0">Privace Policy</p>
+          <p className="p-0 m-0">Terms & Conditions</p>
+          <a
             href="https://www.facebook.com/mrkamin2"
             target="_blank"
             rel="noopener noreferrer"
@@ -96,7 +106,7 @@ const Footer = () => {
           >
             <FaFacebook />
           </a>
-          </div>
+        </div>
       </div>
     </>
   );
