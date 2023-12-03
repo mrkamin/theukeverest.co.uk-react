@@ -57,7 +57,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link bg-white rounded-5 fw-medium text-center"
+                    className="support nav-link bg-white rounded-5 fw-medium text-center"
                     to="contactus"
                   >
                     24/7 Support

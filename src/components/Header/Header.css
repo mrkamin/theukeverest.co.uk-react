@@ -11,6 +11,10 @@
   
 }
 
+.support {
+  border: 1px solid transparent;
+}
+
 @media screen and (max-width: 1300px) {
   .header {
     padding: 5px 5px;
