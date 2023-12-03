@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer-container d-flex flex-column align-items-center justify-content-center">
-        <Link to="contact-us" className="fs-5 p-0 m-0">
+        <Link to="contact-us" className="fs-5 px-5 m-0 bg-white rounded-5">
           {" "}
           Click here for a No Obligation Quote or On-site Call Out
         </Link>

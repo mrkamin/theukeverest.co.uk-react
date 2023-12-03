@@ -32,9 +32,8 @@ a {
 }
 
 a:hover {
-  background-color: transparent;
-  border-color: var(--brand-color);
-  color: var(--brand-color);
+  background-color: transparent !important;
+  border-color: #1f1f38 !important;
 }
 
 li {

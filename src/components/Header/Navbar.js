@@ -9,7 +9,7 @@ const Navbar = () => {
         <NavUperHead />
         <nav className="navbar navbar-expand-lg p-0 m-0">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand rounded-3 bg-white" to="/">
               <img src={IMG} alt="Logo" height={80} />
             </Link>
             <button
