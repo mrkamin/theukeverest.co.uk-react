@@ -11,9 +11,9 @@ const Home = () => {
         <div className="overlay" />
       </div>
       <div className="banner-msg d-flex flex-column position-absolute align-items-center">
-        <div className="banner-msg-p d-flex flex-column align-items-center">
+        <div className="banner-msg-p d-flex flex-column align-items-center px-3">
           <h1 className="p-0 m-0">Air Conditioning & Refrigeration Europe</h1>
-          <p className="p-0 m-0 fs-4">
+          <p className="p-0 m-0 fs-5">
             Specialist Aircon Installation & Commercial Refrigeration Service
           </p>
         </div>

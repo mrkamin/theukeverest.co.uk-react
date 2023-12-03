@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 const NavUperHead = () => {
   return (
     <>
-      <div className="navuperhead d-flex justify-content-end mt-3">
+      <div className="navuperhead d-flex justify-content-end">
         {" "}
         <nav className="navbar navbar-expand-lg p-0 m-0">
           <div className="container-fluid">
@@ -42,7 +42,8 @@ const NavUperHead = () => {
                     Contact Us
                   </Link>
                 </li>
-                <li className=" d-flex nav-link bg-white rounded-5 fw-medium justify-content-center align-items-center gap-3">
+                <div className="d-flex gap-1 navbar-contact">
+                <li className=" d-flex nav-link bg-white rounded-5 fw-medium justify-content-center align-items-center">
                   <p className="p-0 m-0">0797578699</p>
                 </li>
                 <li className="nav-item px-1">
@@ -50,11 +51,12 @@ const NavUperHead = () => {
                     href="https://www.facebook.com/mrkamin2"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="footer-socials"
+                    className="footer-socials rounded-5"
                   >
                     <FaFacebook />
                   </a>
                 </li>
+                </div>
               </ul>
             </div>
           </div>

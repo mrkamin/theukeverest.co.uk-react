@@ -21,17 +21,16 @@
     font-size: 15px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .header {
     padding: 0 0;
-    font-size: 19px;
+    font-size: 18px;
   }
   .navuperhead {
     position: absolute;
-    top: 298px;
+    top: 317px;
     background-color: #5dc9db;
     width: 100%;
-    left: 0;
     z-index: 4;
   }
 
@@ -42,28 +41,32 @@
   .navbar {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 287px) {
-  .navuperhead {
-    top: 333px;
+  .navbar-contact {
+    flex-direction: column ;
   }
 }
 
 @media screen and (max-width: 276px) {
   .navuperhead {
-    top: 361px;
+    top: 344px;
   }
 }
 
-@media screen and (max-width: 228px) {
+@media screen and (max-width: 265px) {
   .navuperhead {
-    top: 408px;
+    top: 370px;
   }
 }
 
-@media screen and (max-width: 199px) {
+@media screen and (max-width: 230px) {
   .navuperhead {
-    top: 430px;
+    top: 410px;
+  }
+}
+
+@media screen and (max-width: 194px) {
+  .navuperhead {
+    top: 440px;
   }
 }

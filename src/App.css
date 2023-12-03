@@ -39,3 +39,23 @@ a:hover {
 li {
   list-style-type: none;
 }
+
+.read-more {
+  background-color: #5dc9db;
+  width: 40%;
+}
+
+.swiper {
+  align-items: center !important;
+}
+
+.accredation {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .read-more {
+    background-color: #5dc9db;
+    width: 100%;
+  }
+}

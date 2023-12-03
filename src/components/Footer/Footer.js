@@ -2,10 +2,13 @@ import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import IMG1 from "../assets/Logo-2.png";
 import IMG9 from "../assets/Accreditations (1).png";
+import Logos from "./Logos";
+import "./footer.css";
 
 const Footer = () => {
   return (
     <>
+      <Logos />
       <div className="footer-container d-flex flex-column align-items-center justify-content-center">
         <Link to="contact-us" className="fs-5 px-5 m-0 bg-white rounded-5">
           {" "}
@@ -27,7 +30,7 @@ const Footer = () => {
             href="https://www.facebook.com/mrkamin2"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-socials"
+            className="footer-socials rounded-5"
           >
             <FaFacebook />
           </a>
@@ -102,7 +105,7 @@ const Footer = () => {
             href="https://www.facebook.com/mrkamin2"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-socials"
+            className="footer-socials rounded-5"
           >
             <FaFacebook />
           </a>
