@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import IMG9 from "../assets/Accreditations (1).png"
+import IMG9 from "../assets/Accreditations (1).png";
 
 const HomeSectionThree = () => {
   return (
@@ -33,10 +33,12 @@ const HomeSectionThree = () => {
             <span className="brand-color">
               Installation, repair and maintenance.
             </span>{" "}
+            <br /> <br />
             Walk-in Chiller / Freezer (Cold Room), Display Fridge / Freezer,
             Counter Fridge / Freezer, Upright Fridge / Freezer, Drink Fridge,
             Blast Chiller, Bottle Cooler, Cellar Cooler, Ice Maker / Machine,
-            Sub Zero / Medical Refrigeration
+            Sub Zero / Medical Refrigeration <br />
+            <br />
             <span className="brand-color">24/7 repair service providing –</span>
             quick response time, top class service and quality of first time
             fix.
@@ -47,7 +49,12 @@ const HomeSectionThree = () => {
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Fully Accredited Services</h3>
-          <img src={IMG9} alt="Accredation" height={150} className="accredation"/>
+          <img
+            src={IMG9}
+            alt="Accredation"
+            height={150}
+            className="accredation"
+          />
           <p className="text-align-justify">
             Our aim is to provide enhanced working environments so that
             businesses can operate at their best – without the pains of slow and
