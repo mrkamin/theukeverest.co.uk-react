@@ -56,37 +56,37 @@ const Footer = () => {
           <h3>Air Conditioning & Refrigeration Services</h3>
           <ul className=" d-flex flex-column gap-3">
             <li>
-              <Link to="about-us" className="">
+              <Link to="about-us" className="rounded-5 px-3 text-primary">
                 AirConditioning Installation
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="">
+              <Link to="about-us" className="rounded-5 px-3 text-primary">
                 Air conditioning Repair
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="">
+              <Link to="about-us" className="rounded-5 px-3 text-primary">
                 Air Conditioning Maintenance
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="">
+              <Link to="about-us" className="rounded-5 px-3 text-primary">
                 Air Conditioning Service
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="">
+              <Link to="about-us" className="rounded-5 px-3 text-primary">
                 Commercial Refrigeration
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="">
+              <Link to="about-us" className="rounded-5 px-3 text-primary">
                 Refrigeration Repair
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="">
+              <Link to="about-us" className="rounded-5 px-3 text-primary">
                 Cold Rooms & Cellar Coolers
               </Link>
             </li>
