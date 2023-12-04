@@ -16,7 +16,7 @@ const Footer = () => {
         </Link>
         <p className="fs-5 p-0 m-0">or Call us on 0787351724</p>
       </div>
-      <div className="HomeSectionThree gap-3">
+      <div className="HomeSectionThree gap-3 mt-2">
         <div className="homeSectionThreeItem p-4 text-start d-flex flex-column justify-content-start align-items-start">
           <img src={IMG1} alt="logo2" height={100} className="pb-3 logoimage" />
           <h3>Call: 0203 488 1889</h3>
@@ -93,7 +93,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footer-container2 d-flex align-items-center justify-content-between px-5">
+      <div className="footer-container2 d-flex align-items-center justify-content-between px-5 mt-2">
         <p className="p-0 m-0">
           @2023 The Uk Everest LTD. Company number 12435t643. Office 7, 35-7
           Ludgate . All Rights Reserved
