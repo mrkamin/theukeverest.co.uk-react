@@ -19,9 +19,9 @@ const Footer = () => {
       <div className="HomeSectionThree gap-3 mt-2">
         <div className="homeSectionThreeItem p-4 text-start d-flex flex-column justify-content-start align-items-start">
           <img src={IMG1} alt="logo2" height={100} className="pb-3 logoimage" />
-          <h3>Call: 0203 488 1889</h3>
+          <h3>Call: 0203 488...</h3>
           <p className="text-align-justify">
-            Address: Office 7, 35/37 Ludgate Hill London, EC4M 7JN
+            Address: Office 7, 35/37 Lud Hill lisister, EC4M 7JN
           </p>
           <p>
             Email: <span className="email">info@theukeverest.co.uk</span>
@@ -42,7 +42,7 @@ const Footer = () => {
             services for commercial businesses and estate agencies. We’ve
             worked…
           </p>
-          <Link to="about-us" className=" read-more p-2 rounded-5 px-4">
+          <Link to="about-us" className=" read-more p-2 rounded-5 px-4 text-center">
             Read more{">"}
           </Link>
           <img
@@ -54,39 +54,39 @@ const Footer = () => {
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Air Conditioning & Refrigeration Services</h3>
-          <ul className=" d-flex flex-column gap-3">
+          <ul className=" d-flex flex-column gap-3 text-start w-100 ">
             <li>
-              <Link to="about-us" className="rounded-5 px-3 text-primary">
+              <Link to="about-us" className="rounded-5 text-primary">
                 AirConditioning Installation
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="rounded-5 px-3 text-primary">
+              <Link to="about-us" className="rounded-5 text-primary">
                 Air conditioning Repair
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="rounded-5 px-3 text-primary">
+              <Link to="about-us" className="rounded-5 text-primary">
                 Air Conditioning Maintenance
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="rounded-5 px-3 text-primary">
+              <Link to="about-us" className="rounded-5 text-primary">
                 Air Conditioning Service
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="rounded-5 px-3 text-primary">
+              <Link to="about-us" className="rounded-5 text-primary">
                 Commercial Refrigeration
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="rounded-5 px-3 text-primary">
+              <Link to="about-us" className="rounded-5 text-primary">
                 Refrigeration Repair
               </Link>
             </li>
             <li>
-              <Link to="about-us" className="rounded-5 px-3 text-primary">
+              <Link to="about-us" className="rounded-5 text-primary">
                 Cold Rooms & Cellar Coolers
               </Link>
             </li>
