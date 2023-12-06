@@ -45,7 +45,7 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link fw-medium"
                     onMouseEnter={handleDropdownToggle}
@@ -94,14 +94,78 @@ const Navbar = () => {
                       </Link>
                     </li>
                   </ul>
+                </li> */}
+                <li class="nav-item dropdown">
+                  <div className="d-flex">
+                    <Link
+                      className="nav-link fw-medium"
+                      to="commercial-refrigeration"
+                    >
+                      Air-Conditioning
+                    </Link>
+                    <Link
+                      className="nav-link dropdown-toggle fw-medium"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    ></Link>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Domestic Split Installation Offer
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Residential Installation
+                        </a>
+                      </li>
+                      <li></li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Maintenance & Service
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Repair
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link  fw-medium"
-                    to="commercial-refrigeration"
-                  >
-                    Commercial Refrigeration
-                  </Link>
+                <li className="nav-item dropdown">
+                  <div className="d-flex">
+                    <Link
+                      className="nav-link fw-medium"
+                      to="commercial-refrigeration"
+                    >
+                      Commercial Refrigeration
+                    </Link>
+                    <Link
+                      className="nav-link dropdown-toggle fw-medium"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    ></Link>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Cold Rooms & Cellar Cooler
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Maintenance & Service
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Repair
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link  fw-medium" to="repair-maintenance">
