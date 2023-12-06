@@ -1,25 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import NavUperHead from "./NavUperHead";
 import IMG from "../assets/Logo2.png";
 
 const Navbar = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const handleLinkClick = () => {
-    // Close the dropdown when a link is clicked
-    setIsDropdownOpen(false);
-  };
-
-  const handleDropdownToggle = () => {
-    // Toggle the dropdown when the link is hovered
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
-  const handleDropdownClose = () => {
-    // Close the dropdown when the mouse leaves the dropdown
-    setIsDropdownOpen(false);
-  };
   return (
     <>
       <div>
@@ -45,56 +29,6 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                {/* <li className="nav-item">
-                  <Link
-                    className="nav-link fw-medium"
-                    onMouseEnter={handleDropdownToggle}
-                    to="air-conditioning"
-                  >
-                    Air-Conditioning
-                  </Link>
-                  <ul
-                    className={`dropdown-menu ${isDropdownOpen ? "show" : ""}`}
-                    onMouseLeave={handleDropdownClose}
-                  >
-                    <li>
-                      <Link
-                        to="#"
-                        className="dropdown-item"
-                        onClick={handleLinkClick}
-                      >
-                        Commercial Installation
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="#"
-                        className="dropdown-item"
-                        onClick={handleLinkClick}
-                      >
-                        Domestic Split Installation Offer
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="#"
-                        className="dropdown-item"
-                        onClick={handleLinkClick}
-                      >
-                        Residential Installation 
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="#"
-                        className="dropdown-item"
-                        onClick={handleLinkClick}
-                      >
-                        Maintenance & Service 
-                      </Link>
-                    </li>
-                  </ul>
-                </li> */}
                 <li class="nav-item dropdown">
                   <div className="d-flex">
                     <Link
@@ -111,25 +45,36 @@ const Navbar = () => {
                     ></Link>
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <Link
+                          class="dropdown-item"
+                          to="commercial-refrigeration"
+                        >
                           Domestic Split Installation Offer
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <Link
+                          class="dropdown-item"
+                          to="commercial-refrigeration"
+                        >
                           Residential Installation
-                        </a>
+                        </Link>
                       </li>
-                      <li></li>
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <Link
+                          class="dropdown-item"
+                          to="commercial-refrigeration"
+                        >
                           Maintenance & Service
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <Link
+                          class="dropdown-item"
+                          to="commercial-refrigeration"
+                        >
                           Repair
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -150,19 +95,28 @@ const Navbar = () => {
                     ></Link>
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <Link
+                          class="dropdown-item"
+                          to="commercial-refrigeration"
+                        >
                           Cold Rooms & Cellar Cooler
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <Link
+                          class="dropdown-item"
+                          to="commercial-refrigeration"
+                        >
                           Maintenance & Service
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <Link
+                          class="dropdown-item"
+                          to="commercial-refrigeration"
+                        >
                           Repair
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
