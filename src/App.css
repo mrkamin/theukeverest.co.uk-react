@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* fonts */
 
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 :root {
   --brand-color: #5dc8dbb6;
 }
@@ -11,8 +13,9 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Bai Jamjuree", sans-serif;
   color: #1f1f38 !important;
+  line-height: 1.7;
 }
 
 span {
