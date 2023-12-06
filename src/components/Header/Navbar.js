@@ -33,7 +33,7 @@ const Navbar = () => {
                   <div className="d-flex">
                     <Link
                       className="nav-link fw-medium"
-                      to="commercial-refrigeration"
+                      to="air-conditioning"
                     >
                       Air-Conditioning
                     </Link>

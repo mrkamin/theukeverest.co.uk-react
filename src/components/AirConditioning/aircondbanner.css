@@ -1,0 +1,28 @@
+.air-cond-banner img  {
+    width: 100% !important;
+    height: 200px;
+    object-fit: cover;
+    background-color:aquamarine ;
+}
+
+.air-cond-overlay {
+    width: 100%;
+    height: 200px;
+    background-color: #5dc8dba8;
+    top: 0;
+}
+
+.air-cond-heading {
+    top: 80px;
+    text-align: center !important;
+
+}
+
+.air-cond-sys-cont {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.air-cond-sys-heading {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
