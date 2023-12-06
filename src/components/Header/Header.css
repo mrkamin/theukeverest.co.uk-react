@@ -15,6 +15,15 @@
   border: 1px solid transparent;
 }
 
+.dropdown-menu {
+  background-color: #5dc9db;
+  border: none !important;
+  margin-top: 20px !important;
+}
+
+.dropdown-item:hover {
+  background-color: white !important;
+}
 @media screen and (max-width: 1300px) {
   .header {
     padding: 5px 5px;

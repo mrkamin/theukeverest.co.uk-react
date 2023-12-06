@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import StarSvg from "../StarSvg";
+import StarSvg from "./StarSvg";
 import { FaFacebook } from "react-icons/fa";
 
 const NavUperHead = () => {

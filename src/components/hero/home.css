@@ -19,6 +19,7 @@
   top: 0;
   z-index: 1;
 }
+
 /* Cart Container */
 .cart-container {
   display: grid;

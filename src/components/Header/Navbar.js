@@ -1,8 +1,25 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import NavUperHead from "./NavUperHead";
 import IMG from "../assets/Logo2.png";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    // Close the dropdown when a link is clicked
+    setIsDropdownOpen(false);
+  };
+
+  const handleDropdownToggle = () => {
+    // Toggle the dropdown when the link is hovered
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleDropdownClose = () => {
+    // Close the dropdown when the mouse leaves the dropdown
+    setIsDropdownOpen(false);
+  };
   return (
     <>
       <div>
@@ -30,12 +47,53 @@ const Navbar = () => {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link
-                    className="nav-link  fw-medium"
-                    aria-current="page"
+                    className="nav-link fw-medium"
+                    onMouseEnter={handleDropdownToggle}
                     to="air-conditioning"
                   >
                     Air-Conditioning
                   </Link>
+                  <ul
+                    className={`dropdown-menu ${isDropdownOpen ? "show" : ""}`}
+                    onMouseLeave={handleDropdownClose}
+                  >
+                    <li>
+                      <Link
+                        to="#"
+                        className="dropdown-item"
+                        onClick={handleLinkClick}
+                      >
+                        Commercial Installation
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="#"
+                        className="dropdown-item"
+                        onClick={handleLinkClick}
+                      >
+                        Domestic Split Installation Offer
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="#"
+                        className="dropdown-item"
+                        onClick={handleLinkClick}
+                      >
+                        Residential Installation 
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="#"
+                        className="dropdown-item"
+                        onClick={handleLinkClick}
+                      >
+                        Maintenance & Service 
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li className="nav-item">
                   <Link

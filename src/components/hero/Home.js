@@ -12,45 +12,35 @@ const Home = () => {
   useLayoutEffect(() => {
     const bannerAninmation = gsap.context(() => {
       gsap.from(".bannerMsgBtnleft", {
-        duration: 2,
+        duration: 1,
         x: "-600%",
-        ease: "bounce",
+        ease: "",
       });
       gsap.to(leftAnimation.current, {
-        duration: 2,
+        duration: 1,
         x: "0%",
-        ease: "bounce",
+        ease: "",
       });
       gsap.from(".bannerMsgBtnright", {
-        duration: 2,
+        duration: 1,
         x: "400%",
-        ease: "bounce",
+        ease: "",
       });
       gsap.to(rightAnimition.current, {
-        duration: 2,
+        duration: 1,
         x: "0%",
-        ease: "bounce",
+        ease: "",
       });
       gsap.from(".bannerUpAnimation", {
-        duration: 2,
+        duration: 1,
         y: "-400%",
-        ease: "bounce",
+        ease: "",
       });
       gsap.to(rightAnimition.current, {
-        duration: 2,
+        duration: 1,
         y: "0%",
-        ease: "bounce",
+        ease: "",
       });
-      // gsap.from(".bannerUpAnimation", {
-      //   duration: 2,
-      //   y: "-400%",
-      //   ease: "bounce",
-      // });
-      // gsap.to(rightAnimition.current, {
-      //   duration: 2,
-      //   y: "0%",
-      //   ease: "bounce",
-      // });
     });
     return () => bannerAninmation.revert();
   }, []);
