@@ -53,26 +53,10 @@
   }
 }
 
-@media screen and (max-width: 276px) {
-  .navuperhead {
-    top: 344px;
-  }
-}
 
-@media screen and (max-width: 265px) {
-  .navuperhead {
-    top: 370px;
-  }
-}
 
-@media screen and (max-width: 230px) {
-  .navuperhead {
-    top: 410px;
-  }
-}
 
-@media screen and (max-width: 194px) {
-  .navuperhead {
-    top: 440px;
-  }
-}
+
+
+
+
