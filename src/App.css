@@ -16,6 +16,7 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   color: #1f1f38 !important;
   line-height: 1.7;
+  position: relative;
 }
 
 span {
