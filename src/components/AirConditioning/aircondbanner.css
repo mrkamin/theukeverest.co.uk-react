@@ -1,49 +1,88 @@
-.air-cond-banner img  {
-    width: 100% !important;
-    height: 300px;
-    object-fit: cover;
-    background-color:aquamarine ;
+.air-cond-banner img {
+  width: 100% !important;
+  height: 300px;
+  object-fit: cover;
+  background-color: aquamarine;
 }
 
 .air-cond-overlay {
-    width: 100%;
-    height: 300px;
-    background-color: #5dc8db73;
-    top: 0;
+  width: 100%;
+  height: 300px;
+  background-color: #5dc8db73;
+  top: 0;
 }
 
 .air-cond-heading {
-    top: 150px;
-    text-align: center !important;
-
+  top: 150px;
+  text-align: center !important;
 }
 
 .air-cond-sys-cont {
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-.air-cond-sys-heading {
-    display: grid;
-    grid-template-columns: 40% 60%;
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
+
 .air-cond-projects {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 .air-cart-item {
-    display: grid;
-    grid-template-columns: 20% 80%;
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 
 .air-cart-item svg {
-    height: 80px;
-    width: 80px;
+  height: 60px;
+  width: 60px;
 }
 
 .air-cond-projects img {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.air-cond-sys-list-item:hover {
+    background-color: #5dc8db73;
+  }
+
+@media screen and (max-width: 991px) {
+  .air-cond-sys-cont {
+    grid-template-columns: 1fr !important;
+  }
+
+  .air-cond-sys-list {
+    flex-direction: column;
+  }
+
+  .cart-items {
+    width: 100% !important;
+  }
+  .air-cart-item {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .air-cond-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .air-cond-sys-main-cont {
+        padding: 3px !important;
+    }
+
+    .air-cond-sys-contact-info {
+        padding: 3px !important;
+    }
+
+    .air-cond-projects {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
 }

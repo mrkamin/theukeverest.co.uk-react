@@ -15,7 +15,7 @@ import { GiAutoRepair } from "react-icons/gi";
 
 const AirConditioningSys = () => {
   return (
-    <div className="p-5 d-flex flex-column gap-2">
+    <div className="air-cond-sys-main-cont p-5 d-flex flex-column gap-2">
       <div className="air-cond-sys-cont gap-4">
         <div className="">
           <div className=" air-cond-sys-heading align-items-center">
@@ -37,7 +37,7 @@ const AirConditioningSys = () => {
             conditioning options available for:
           </p>
         </div>
-        <div className=" px-5 d-flex flex-column justify-content-center border border-dark rounded-4">
+        <div className="air-cond-sys-contact-info px-5 d-flex flex-column justify-content-center border border-dark rounded-4">
           <p>Air Conditioning Installation Speciaist</p>
           <h1>02034.....3</h1>
           <p>
@@ -50,18 +50,18 @@ const AirConditioningSys = () => {
           </p>
         </div>
       </div>
-      <div className="d-flex  fs-5">
+      <div className="air-cond-sys-list d-flex fs-5">
         <ul className="w-75">
-          <li>Offices</li>
-          <li>House & Flats</li>
-          <li>Retail Stores & Factories</li>
-          <li>Restaurants</li>
+          <li className="air-cond-sys-list-item">Offices</li>
+          <li className="air-cond-sys-list-item">House & Flats</li>
+          <li className="air-cond-sys-list-item">Retail Stores & Factories</li>
+          <li className="air-cond-sys-list-item">Restaurants</li>
         </ul>
         <ul className="w-100">
-          <li>Hotels</li>
-          <li>Cinemas & Theatres</li>
-          <li>Schools & Colleges</li>
-          <li>Shopping Centres</li>
+          <li className="air-cond-sys-list-item">Hotels</li>
+          <li className="air-cond-sys-list-item">Cinemas & Theatres</li>
+          <li className="air-cond-sys-list-item">Schools & Colleges</li>
+          <li className="air-cond-sys-list-item">Shopping Centres</li>
         </ul>
       </div>
       <div className="cart-items d-flex flex-column text-center p-3 gap-3 w-75">

@@ -78,7 +78,7 @@
   }  
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .cart-container {
     display: grid;
     grid-template-columns: 1fr;
