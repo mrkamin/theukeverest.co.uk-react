@@ -1,19 +1,19 @@
 .air-cond-banner img  {
     width: 100% !important;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     background-color:aquamarine ;
 }
 
 .air-cond-overlay {
     width: 100%;
-    height: 200px;
-    background-color: #5dc8dba8;
+    height: 300px;
+    background-color: #5dc8db73;
     top: 0;
 }
 
 .air-cond-heading {
-    top: 80px;
+    top: 150px;
     text-align: center !important;
 
 }
@@ -25,4 +25,25 @@
 .air-cond-sys-heading {
     display: grid;
     grid-template-columns: 40% 60%;
+}
+
+.air-cond-projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.air-cart-item {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.air-cart-item svg {
+    height: 80px;
+    width: 80px;
+}
+
+.air-cond-projects img {
+    object-fit: cover;
+    width: 100%;
 }
