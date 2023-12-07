@@ -34,13 +34,13 @@
     padding: 0 0;
     font-size: 18px;
   }
-  .navuperhead {
+  /* .navuperhead {
     position: absolute;
     top: 317px;
     background-color: #5dc9db;
     width: 100%;
     z-index: 4;
-  }
+  } */
 
   .review {
     display: none !important;

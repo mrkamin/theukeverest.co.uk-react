@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <NavUperHead />
+        
         <nav className="navbar navbar-expand-lg p-0 m-0">
           <div className="container-fluid">
             <Link className="navbar-brand rounded-3" to="/">
@@ -143,6 +143,7 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
+        <NavUperHead />
       </div>
     </>
   );
