@@ -6,8 +6,7 @@ import IMG from "../assets/Logo2.png";
 const Navbar = () => {
   return (
     <>
-      <div>
-        
+      <div className="header-navbar d-flex flex-column-reverse">
         <nav className="navbar navbar-expand-lg p-0 m-0">
           <div className="container-fluid">
             <Link className="navbar-brand rounded-3" to="/">

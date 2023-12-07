@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 const NavUperHead = () => {
   return (
     <>
-      <div className="navuperhead d-flex justify-content-end">
+      <div className="d-flex justify-content-end">
         {" "}
         <nav className="navbar navbar-expand-lg p-0 m-0">
           <div className="container-fluid">

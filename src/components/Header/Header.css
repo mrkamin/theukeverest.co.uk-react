@@ -2,6 +2,7 @@
   background: #5dc9db;
   padding: 5px 80px;
   font-size: 18px;
+  
 }
 
 .navbar-nav {
@@ -33,6 +34,10 @@
   .header {
     padding: 0 0;
     font-size: 18px;
+  }
+
+  .header-navbar {
+    flex-direction: column !important;
   }
   
   .review {
