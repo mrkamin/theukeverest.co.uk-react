@@ -22,6 +22,11 @@
   grid-template-columns: 70% 30%;
 }
 
+.air-cond-sys-contact-info {
+position: sticky !important;
+top: 150px;
+height: 200px;
+}
 
 .air-cond-projects {
   display: grid;
@@ -45,8 +50,8 @@
 }
 
 .air-cond-sys-list-item:hover {
-    background-color: #5dc8db73;
-  }
+  background-color: #5dc8db73;
+}
 
 @media screen and (max-width: 991px) {
   .air-cond-sys-cont {
@@ -72,17 +77,17 @@
 }
 
 @media screen and (max-width: 600px) {
-    .air-cond-sys-main-cont {
-        padding: 3px !important;
-    }
+  .air-cond-sys-main-cont {
+    padding: 3px !important;
+  }
 
-    .air-cond-sys-contact-info {
-        padding: 3px !important;
-    }
+  .air-cond-sys-contact-info {
+    padding: 3px !important;
+  }
 
-    .air-cond-projects {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-      }
+  .air-cond-projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
 }
