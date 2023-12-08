@@ -139,13 +139,13 @@ const AirConditioningSys = () => {
                 <h3 className="p-0 m-0">Domestic Split Special Offer</h3>
                 <p className="p-0 m-0">
                   We are proud to offer our NEW Single Home Installation Offer.
-                  Using our years of experience , Be Cool has selected the very
-                  best wall mounted and floor mounted air conditioning units on
-                  the market, the Mitsubishi SRK-ZSP-S and SRF-ZMX-S. Renowned
-                  for high quality and reliability, Mitsubishi uses the latest
-                  technology to offer a robust unit with remote controlled,
-                  variable temperature settings which can be programmed and
-                  scheduled to switch on and off to suit you.
+                  Using our years of experience , The Uk Everest has selected
+                  the very best wall mounted and floor mounted air conditioning
+                  units on the market, the Mitsubishi SRK-ZSP-S and SRF-ZMX-S.
+                  Renowned for high quality and reliability, Mitsubishi uses the
+                  latest technology to offer a robust unit with remote
+                  controlled, variable temperature settings which can be
+                  programmed and scheduled to switch on and off to suit you.
                 </p>
               </div>
             </div>
