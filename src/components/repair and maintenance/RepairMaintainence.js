@@ -6,7 +6,15 @@ import IMG4 from "../assets/commircial refergration/4.avif";
 import IMG5 from "../assets/commircial refergration/5.png";
 import IMG6 from "../assets/commircial refergration/7.jpg";
 import IMG7 from "../assets/commircial refergration/6.jpg";
-import IMG8 from "../assets//commircial refergration/8.jpg";
+import IMG8 from "../assets/commircial refergration/8.jpg";
+import IMG9 from "../assets/repair/2.png";
+import IMG10 from "../assets/repair/3.png";
+import IMG11 from "../assets/repair/4.jpg";
+import IMG12 from "../assets/repair/5.png";
+import IMG13 from "../assets/repair/3.png";
+import IMG14 from "../assets/repair/2.png";
+import IMG15 from "../assets/repair/4.jpg";
+import IMG16 from "../assets/repair/5.png";
 
 const RepairMaintaince = () => {
   return (
@@ -28,134 +36,165 @@ const RepairMaintaince = () => {
             first-time fix.
           </p>
           <hr />
-          <div>
-            <h4>
-            Air Conditioning Repair
-            </h4>
-            <p>
-              Commercial refrigeration is intrinsic to the successful
-              functioning of your kitchen but with a vast range of products to
-              choose from it’s important that you install the correct
-              refrigeration equipment.
-              <br /> <br />
-              Investing in a high quality, comprehensive cooling system will be
-              a significant asset to the longevity and efficiency of your
-              business. <br />
-              <br />
-              Our experienced design team can offer{" "}
-              <span>no obligation advice </span>on the best refrigeration
-              solutions for your business.
-            </p>
+          <div className="d-flex flex-column gap-4">
+            <h4>Air Conditioning Repair</h4>
+            <div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG9} alt="IMG9" />
+                <p className="p-0 m-0 fs-5">VRV or VRF</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG10} alt="IMG10" />
+                <p className="p-0 m-0 fs-5">Wall Mounted</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG11} alt="IMG11" />
+                <p className="p-0 m-0 fs-5">Cassette</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG12} alt="IMG12" />
+                <p className="p-0 m-0 fs-5">Floor Mounted</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG13} alt="IMG13" />
+                <p className="p-0 m-0 fs-5">Ducted</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG14} alt="IMG14" />
+                <p className="p-0 m-0 fs-5">Concealed</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG15} alt="IMG15" />
+                <p className="p-0 m-0 fs-5">Split</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG16} alt="IMG16" />
+                <p className="p-0 m-0 fs-5">Multi-Split</p>
+              </div>
+            </div>
           </div>
           <hr />
-          <div>
-            <h4>Coldrooms</h4>
-            <ul>
-              <li>
-                <span>Walk-in Fridge and Walk-in Freezers – </span>suitable for
-                large stock food catering products with flexible temperature,
-                cold storage solutions
-              </li>
-            </ul>
-          </div>
-          <hr />
-          <div>
-            <h4>Commercial Fridges</h4>
-            <p>
-              Energy efficient solutions, to help increase product life and
-              improve food safety.
-            </p>
-            <ul>
-              <li>
-                <span>Display Fridge</span>– wide range of single or double
-                fronted glass door refrigerators for visual impact and with
-                variable food display options
-              </li>
-              <li>
-                <span>Counter Fridge</span>– space efficient, offering flexible
-                food preparation
-              </li>
-              <li>
-                <span>Free Standing Fridge</span>– fully automatic, fan assisted
-                cooling in a range of sizes
-              </li>
-              <li>
-                <span>Upright Fridge</span>– variable food display options
-              </li>
-              <li>
-                <span>Drink Fridge</span>– chilled display fridge with single,
-                half size or double door options
-              </li>
-            </ul>
-          </div>
-          <hr />
-          <div>
-            <h4>Commercial Freezers</h4>
-            <p>Reliable food storage solutions for commercial kitchens</p>
-            <ul>
-              <li>
-                <span>Upright Freezer</span>– space saving, practical and energy
-                efficient
-              </li>
-              <li>
-                <span>Chest Freezer</span>– reliable, high capacity for large
-                volume freezing
-              </li>
-              <li>
-                <span>Counter Freezer</span>– flexible solution for food
-                preparation counter space
-              </li>
-            </ul>
-          </div>
-          <hr />
-          <div>
-            <h4>Blast Freezer and Blast Chiller</h4>
-            <p>
-              Reliable way to ensure good food hygiene standards and preserve
-              food quickly.
-            </p>
-          </div>
-          <hr />
-          <div>
-            <h4>Bottle Cooler</h4>
-            <p>
-              Glass door, half height, single and double door drinks
-              refrigeration
-            </p>
-          </div>
-          <hr />
-          <div>
-            <h4>Sub Zero / Medical Refrigeration</h4>
-            <p>
-              With advanced temperature settings for sensitive scientific and
-              medical materials.
-            </p>
-          </div>
-          <hr />
-          <div>
-            <h4>Cellar Cooler, Wine Cooler</h4>
-            <p>Under counter and full height wine coolers.</p>
+          <div className="d-flex flex-column gap-4">
+            <h4>Commercial Refrigeration Repair</h4>
+            <div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG9} alt="IMG9" />
+                <p className="p-0 m-0 fs-5">Walk-in Cold Room</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG10} alt="IMG10" />
+                <p className="p-0 m-0 fs-5">Commercial Fridges</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG11} alt="IMG11" />
+                <p className="p-0 m-0 fs-5">Commercial Freezer</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG12} alt="IMG12" />
+                <p className="p-0 m-0 fs-5">Display or Counter Fridge</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG13} alt="IMG13" />
+                <p className="p-0 m-0 fs-5">Upright Fridge</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG14} alt="IMG14" />
+                <p className="p-0 m-0 fs-5">Cellar or Bottle Cooler</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG15} alt="IMG15" />
+                <p className="p-0 m-0 fs-5">Blast Chiller</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG16} alt="IMG16" />
+                <p className="p-0 m-0 fs-5">Ice Machine / Maker</p>
+              </div>
+              <div className="air-cond-repair d-flex gap-4 align-items-center">
+                <img src={IMG14} alt="IMG14" />
+                <p className="p-0 m-0 fs-5">Chest Freezer</p>
+              </div>
+            </div>
           </div>
           <hr />
           <p>
             <span>
-              <Link to="contact-us">Contact us for No Obligation Survey</Link>
+              <Link to="contact-us">Request a ON-SITE CALL OUT</Link>
             </span>
           </p>
           <hr />
           <div>
-            <h4>Talk to us about your refrigeration needs</h4>
+            <h4>Planned Maintenance Package</h4>
             <p>
-              The Uk Everest Refrigeration are specialists in air conditioning
-              and refrigeration services for commercial businesses in and around
-              the London area.. We can help your business operate in a more
-              efficient and cost-effective way. <br /> <br />
+              Our <span>Planned or Proactive Maintenance Service</span>offers
+              regular servicing and maintenance visits to ensure that your
+              system remains energy efficient and operates to its optimum level.
+              Additional services include:
             </p>
+            <div className="air-cond-repair d-flex gap-4 align-items-center">
+              <img src={IMG9} alt="IMG9" />
+              <p className="p-0 m-0 fs-5">
+                Priority response to all breakdowns
+              </p>
+            </div>
+            <div className="air-cond-repair d-flex gap-4 align-items-center">
+              <img src={IMG10} alt="IMG10" />
+              <p className="p-0 m-0 fs-5">24/7 Emergency response</p>
+            </div>
+            <div className="air-cond-repair d-flex gap-4 align-items-center">
+              <img src={IMG11} alt="IMG11" />
+              <p className="p-0 m-0 fs-5">Dedicated service engineers</p>
+            </div>
+            <hr />
+            <div className="d-flex flex-column gap-3">
+              <p>
+                <span>For more details visit</span>
+              </p>
+              <div className="d-flex gap-3 text-center">
+                <Link to="about-us" className=" read-more p-2 rounded-5 px-4">
+                  Air Conditioning Maintenance
+                </Link>
+                <Link to="about-us" className=" read-more p-2 rounded-5 px-4">
+                  Commercial Refrigeration Maintenance
+                </Link>
+              </div>
+              <p>
+                <span>
+                  <Link to="contact-us">Request a FREE SURVEY</Link>
+                </span>
+              </p>
+            </div>
           </div>
           <hr />
+          <div>
+            <p>All range of systems including:</p>
+            <p>
+              <span>
+                Refrigeration: Williams, Foster, True, Polar, Hoshizaki, Fagor,
+                True, Precision, J&E Hall, Gram, Blizzard, Arneg, Max Cold,
+                Electrolux and more.
+              </span>
+            </p>
+            <hp>
+              <span>
+                Air-conditioning: Daikin, Mitsubishi Electric, Mitsubishi Heavy
+                Industries, Samsung, Fujitsu, LG, Panasonic, Carrier and more.
+              </span>
+            </hp>
+          </div>
+          <hr />
+          <div>
+            <h4>Next Steps</h4>
+            <p>
+              The Uk Everest Refrigeration is a commercial air-conditioning
+              installation and service specialist. We can help your business
+              operate in a more efficient and cost-effective way.
+              <br /> <br />
+              We are here to help.
+            </p>
+          </div>
           <p>
-            Call <span>0203...8</span> today to talk to us about your
-            refrigeration & air conditioning requirements.
+            Call <span>0203...8</span> today to talk to us about your Repair and
+            Maintenance requirements.
           </p>
         </div>
         <div className="air-cond-sys-contact-info px-5 d-flex flex-column justify-content-center border border-dark rounded-4">

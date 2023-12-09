@@ -1,5 +1,6 @@
 import IMG from "../assets/repair/1.jpg";
 import RepairMaintaince from "./RepairMaintainence";
+import './repairmaintainec.css';
 
 const RepairBanner = () => {
   return (
@@ -8,7 +9,7 @@ const RepairBanner = () => {
         <img src={IMG} alt="bannerphoto" />
         <div className="air-cond-overlay position-absolute"></div>
         <h1 className="air-cond-heading p-0 m-0 position-absolute w-100">
-          Commercial Refrigeration Europe
+          Air Conditioning & Commercial Refrigeration Repair and Maintenance
         </h1>
       </div>
       <RepairMaintaince />
