@@ -149,11 +149,11 @@ const RepairMaintaince = () => {
               <p>
                 <span>For more details visit</span>
               </p>
-              <div className="d-flex gap-3 text-center">
-                <Link to="about-us" className=" read-more p-2 rounded-5 px-4">
+              <div className="d-flex gap-3 text-center for-more-details w-100">
+                <Link to="about-us" className=" read-more p-2 rounded-5 px-4 w-100">
                   Air Conditioning Maintenance
                 </Link>
-                <Link to="about-us" className=" read-more p-2 rounded-5 px-4">
+                <Link to="about-us" className=" read-more p-2 rounded-5 px-4 w-100">
                   Commercial Refrigeration Maintenance
                 </Link>
               </div>
