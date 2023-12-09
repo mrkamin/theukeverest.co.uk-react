@@ -5,6 +5,7 @@ import Home from "./components/hero/Home";
 import Footer from "./components/Footer/Footer";
 import AirCondBanner from "./components/AirConditioning/AirCondBanner";
 import Refergration from "./components/commercialReferg/Refergration";
+import RepairBanner from "./components/repair and maintenance/RepairBanner";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="air-conditioning" element={<AirCondBanner />} />
           <Route path="commercial-refrigeration" element={<Refergration />} />
+          <Route path="repair-maintenance" element={<RepairBanner />} />
         </Routes>
         <Footer />
       </div>
