@@ -54,7 +54,7 @@ const Contactform = () => {
             <div className="p-0 m-0">
               <p className="p-0 m-0">Address</p>
               <p className="p-0 m-0">
-                Office 7, 35/37 Ludgate Hill, London, EC4M 7JN
+                Office 8, 35/37 Lihini Hill, Liceter, EGT 456
               </p>
             </div>
           </div>
