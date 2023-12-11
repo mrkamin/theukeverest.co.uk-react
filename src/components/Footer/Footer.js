@@ -14,12 +14,12 @@ const Footer = () => {
           {" "}
           Click here for a No Obligation Quote or On-site Call Out
         </Link>
-        <p className="fs-5 p-0 m-0">or Call us on 0787351724</p>
+        <p className="fs-5 p-0 m-0">or Call us on 07473319304</p>
       </div>
       <div className="HomeSectionThree gap-3 mt-2">
         <div className="homeSectionThreeItem p-4 text-start d-flex flex-column justify-content-start align-items-start">
           <img src={IMG1} alt="logo2" height={100} className="pb-3 logoimage" />
-          <h3>Call: 0203 488...</h3>
+          <h3>Call: 07473319304</h3>
           <p className="text-align-justify">
             Address: Office 7, 35/37 Lud Hill lisister, EC4M 7JN
           </p>

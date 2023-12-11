@@ -225,7 +225,7 @@ const Navbar = () => {
                   </li>
                   <div className="d-flex gap-1 navbar-contact">
                     <li className=" d-flex nav-link bg-white rounded-5 fw-medium justify-content-center align-items-center">
-                      <p className="p-0 m-0">0797578699</p>
+                      <p className="p-0 m-0">07473319304</p>
                     </li>
                     <li className="nav-item px-1">
                       <a
