@@ -162,7 +162,7 @@ const Navbar = () => {
                   <NavLink
                     className="support nav-link bg-white rounded-5 fw-medium text-center"
                     onClick={closeNavbar}
-                    to="contactus"
+                    to="contact-us"
                   >
                     24/7 Support
                   </NavLink>
