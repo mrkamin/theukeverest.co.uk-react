@@ -1,0 +1,25 @@
+.about-us {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.about-image-container {
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media screen and (max-width: 991px) {
+    .about-image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-image-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

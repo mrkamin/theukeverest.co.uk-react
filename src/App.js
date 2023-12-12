@@ -8,6 +8,8 @@ import Refergration from "./components/commercialReferg/Refergration";
 import RepairBanner from "./components/repair and maintenance/RepairBanner";
 import OurProjects from "./components/ourporject/OurProjects";
 import Contactform from "./components/contact/ContactForm";
+import Testimonials from "./components/testimonials/Testimonials";
+import Aboutas from "./components/about/Aboutas";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="repair-maintenance" element={<RepairBanner />} />
           <Route path="our-projects" element={<OurProjects />} />
           <Route path="contact-us" element={<Contactform />} />
+          <Route path="testimonials" element={<Testimonials />} />
+          <Route path="about-us" element={<Aboutas />} />
         </Routes>
         <Footer />
       </div>
