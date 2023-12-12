@@ -49,7 +49,7 @@ const Navbar = () => {
                       Air-Conditioning
                     </NavLink>
                     <NavLink
-                      className="nav-link dropdown-toggle fw-medium"
+                      className="nav-link dropdown-toggle"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -57,7 +57,7 @@ const Navbar = () => {
                     <ul class="dropdown-menu">
                       <li>
                         <NavLink
-                          class=" dropdown-item"
+                          class="dropdown-item"
                           to="commercial-refrigeration"
                           onClick={closeNavbar}
                         >
@@ -66,7 +66,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class="dropdown-item"
+                          class=" dropdown-item"
                           to="commercial-refrigeration"
                           onClick={closeNavbar}
                         >
@@ -75,7 +75,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class="  dropdown-item"
+                          class="dropdown-item"
                           to="commercial-refrigeration"
                           onClick={closeNavbar}
                         >
@@ -84,7 +84,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class=" dropdown-item"
+                          class="dropdown-item"
                           to="commercial-refrigeration"
                           onClick={closeNavbar}
                         >
@@ -121,7 +121,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class=" dropdown-item"
+                          class="nav-link dropdown-item"
                           to="commercial-refrigeration"
                           onClick={closeNavbar}
                         >
@@ -130,7 +130,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class=" dropdown-item"
+                          class="nav-link dropdown-item"
                           to="commercial-refrigeration"
                           onClick={closeNavbar}
                         >

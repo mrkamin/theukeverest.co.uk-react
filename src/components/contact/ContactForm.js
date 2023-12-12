@@ -54,7 +54,8 @@ const Contactform = () => {
             <div className="p-0 m-0">
               <p className="p-0 m-0">Address</p>
               <p className="p-0 m-0">
-                Office 8, 35/37 Lihini Hill, Liceter, EGT 456
+              Unit B 11 Troonway Business Centre Humberstone
+            Lane Leicester LE4 9HA
               </p>
             </div>
           </div>
