@@ -12,19 +12,20 @@ import IMG10 from "../assets/aboutus/9.png";
 import IMG11 from "../assets/aboutus/10.jpg";
 import IMG12 from "../assets/aboutus/11.jpg";
 import "./aboutas.css";
+import { Link } from "react-router-dom";
 
 const Aboutas = () => {
   return (
     <>
       <div className="about-us container gap-5 py-5">
         <div className="">
-          <h1>Be Cool Refrigeration & Air-conditioning Service London</h1>
+          <h1>The Uk Everest Refrigeration & Air-conditioning Service Eroupe</h1>
           <hr />
           <p>
-            <span>Be Cool Refrigeration & Air-conditioning</span>is a family run
-            business founded in 2004 by the Elm Family, that specialises in air
+            <span>The Uk Everest Refrigeration & Air-conditioning</span>is a family run
+            business founded in 2015 by the Ramin Family, that specialises in air
             conditioning and refrigeration services for commercial businesses in
-            and around the London area. <br /> <br />
+            and around the Eroupe area. <br /> <br />
             Our reputation has been built on our excellent customer service and
             high standards of workmanship. Unlike other firms, we don’t operate
             by the hour. <br /> <br />
@@ -92,7 +93,7 @@ const Aboutas = () => {
             <p>
               If you are looking for first class service from a company whose
               business has been built on trust and recommendation,{" "}
-              <span>contact Be Cool Refrigeration </span>today!
+              <span><Link to="/contact-us"> contact The Uk Everest Refrigeration </Link></span>today!
             </p>
           </div>
         </div>
