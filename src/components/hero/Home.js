@@ -69,7 +69,7 @@ const Home = () => {
             OUR PROJECTS
           </Link>
           <Link
-            to="our-projects"
+            to="contact-us"
             className="bannerMsgBtnright border border-3 rounded-5  p-2"
             ref={rightAnimition}
           >

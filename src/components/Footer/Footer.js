@@ -21,7 +21,8 @@ const Footer = () => {
           <img src={IMG1} alt="logo2" height={100} className="pb-3 logoimage" />
           <h3>Call: 07473319304</h3>
           <p className="text-align-justify">
-            Address: Office 7, 35/37 Lud Hill lisister, EC4M 7JN
+            Address: Unit B 11 Troonway Business Centre Humberstone
+            Lane Leicester LE4 9HA
           </p>
           <p>
             Email: <span className="email">info@theukeverest.co.uk</span>
@@ -42,7 +43,10 @@ const Footer = () => {
             services for commercial businesses and estate agencies. We’ve
             worked…
           </p>
-          <Link to="about-us" className=" read-more p-2 rounded-5 px-4 text-center">
+          <Link
+            to="about-us"
+            className=" read-more p-2 rounded-5 px-4 text-center"
+          >
             Read more{">"}
           </Link>
           <img
