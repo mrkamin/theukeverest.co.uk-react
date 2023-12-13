@@ -1,4 +1,5 @@
 import { FaFacebook } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { SiMinutemailer } from "react-icons/si";
 import IMG1 from "../assets/Logo-2.png";
@@ -46,12 +47,12 @@ const Footer = () => {
             </div>
           </div>
           <a
-            href="https://www.facebook.com/mrkamin2"
+            href="https://api.whatsapp.com//send?phone=00447473319304"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-socials rounded-5"
           >
-            <FaFacebook />
+            <BsWhatsapp className="contact__options-icon" />
           </a>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
