@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import StarSvg from "./StarSvg";
-import { FaFacebook } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 import IMG from "../assets/Logo2.png";
 
 const Navbar = () => {
@@ -229,12 +229,12 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item px-1">
                       <a
-                        href="https://www.facebook.com/mrkamin2"
+                        href="https://api.whatsapp.com//send?phone=00447473319304"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="footer-socials rounded-5"
                       >
-                        <FaFacebook />
+                        <BsWhatsapp className="contact__options-icon" />
                       </a>
                     </li>
                   </div>

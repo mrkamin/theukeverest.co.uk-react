@@ -1,5 +1,6 @@
 import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { SiMinutemailer } from "react-icons/si";
 import IMG1 from "../assets/Logo-2.png";
 import IMG9 from "../assets/Accreditations (1).png";
 import Logos from "./Logos";
@@ -21,12 +22,22 @@ const Footer = () => {
           <img src={IMG1} alt="logo2" height={100} className="pb-3 logoimage" />
           <h3>Call: 07473319304</h3>
           <p className="text-align-justify">
-            Address: Unit B 11 Troonway Business Centre Humberstone
-            Lane Leicester LE4 9HA
+            Address: Unit B 11 Troonway Business Centre Humberstone Lane
+            Leicester LE4 9HA
           </p>
-          <p>
-            Email: <span className="email">info@theukeverest.co.uk</span>
-          </p>
+          <div className="">
+            <SiMinutemailer className="contact__options-icon" />
+            <div className="d-flex">
+              <h4>Email:</h4>
+              <a
+                href="mailto:info@theukeverest.co.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="email">info@theukeverest.co.uk</span>
+              </a>
+            </div>
+          </div>
           <a
             href="https://www.facebook.com/mrkamin2"
             target="_blank"
