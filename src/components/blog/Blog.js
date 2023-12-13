@@ -9,7 +9,7 @@ import IMG8 from "../assets/airconditioning/7.webp";
 
 const Blog = () => {
   return (
-    <>
+    <div className="py-5">
       <div className="container text-center">
         <h1>Air conditioning & Refrigeration Blog</h1>
         <p>
@@ -29,7 +29,7 @@ const Blog = () => {
         <img src={IMG7} alt="IMG7" height={200} />
         <img src={IMG8} alt="IMG8" height={200} />
       </div>
-    </>
+    </div>
   );
 };
 

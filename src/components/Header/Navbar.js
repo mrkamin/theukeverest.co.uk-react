@@ -15,6 +15,10 @@ const Navbar = () => {
     setNavbarOpen(false);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div className="header-navbar d-flex flex-column-reverse">
@@ -23,7 +27,10 @@ const Navbar = () => {
             <NavLink
               className="navbar-brand rounded-3"
               to="/"
-              onClick={closeNavbar}
+              onClick={() => {
+                closeNavbar();
+                scrollToTop();
+              }}
             >
               <img src={IMG} alt="Logo" height={80} />
             </NavLink>
@@ -44,7 +51,10 @@ const Navbar = () => {
                     <NavLink
                       className="nav-link fw-medium"
                       to="air-conditioning"
-                      onClick={closeNavbar}
+                      onClick={() => {
+                        closeNavbar();
+                        scrollToTop();
+                      }}
                     >
                       Air-Conditioning
                     </NavLink>
@@ -59,7 +69,10 @@ const Navbar = () => {
                         <NavLink
                           class="dropdown-item"
                           to="commercial-refrigeration"
-                          onClick={closeNavbar}
+                          onClick={() => {
+                            closeNavbar();
+                            scrollToTop();
+                          }}
                         >
                           Domestic Split Installation Offer
                         </NavLink>
@@ -68,7 +81,10 @@ const Navbar = () => {
                         <NavLink
                           class=" dropdown-item"
                           to="commercial-refrigeration"
-                          onClick={closeNavbar}
+                          onClick={() => {
+                            closeNavbar();
+                            scrollToTop();
+                          }}
                         >
                           Residential Installation
                         </NavLink>
@@ -77,7 +93,10 @@ const Navbar = () => {
                         <NavLink
                           class="dropdown-item"
                           to="commercial-refrigeration"
-                          onClick={closeNavbar}
+                          onClick={() => {
+                            closeNavbar();
+                            scrollToTop();
+                          }}
                         >
                           Maintenance & Service
                         </NavLink>
@@ -86,7 +105,10 @@ const Navbar = () => {
                         <NavLink
                           class="dropdown-item"
                           to="commercial-refrigeration"
-                          onClick={closeNavbar}
+                          onClick={() => {
+                            closeNavbar();
+                            scrollToTop();
+                          }}
                         >
                           Repair
                         </NavLink>
@@ -99,7 +121,10 @@ const Navbar = () => {
                     <NavLink
                       className="nav-link fw-medium"
                       to="commercial-refrigeration"
-                      onClick={closeNavbar}
+                      onClick={() => {
+                        closeNavbar();
+                        scrollToTop();
+                      }}
                     >
                       Commercial Refrigeration
                     </NavLink>
@@ -114,7 +139,10 @@ const Navbar = () => {
                         <NavLink
                           class=" dropdown-item"
                           to="commercial-refrigeration"
-                          onClick={closeNavbar}
+                          onClick={() => {
+                            closeNavbar();
+                            scrollToTop();
+                          }}
                         >
                           Cold Rooms & Cellar Cooler
                         </NavLink>
@@ -123,7 +151,10 @@ const Navbar = () => {
                         <NavLink
                           class="nav-link dropdown-item"
                           to="commercial-refrigeration"
-                          onClick={closeNavbar}
+                          onClick={() => {
+                            closeNavbar();
+                            scrollToTop();
+                          }}
                         >
                           Maintenance & Service
                         </NavLink>
@@ -132,7 +163,10 @@ const Navbar = () => {
                         <NavLink
                           class="nav-link dropdown-item"
                           to="commercial-refrigeration"
-                          onClick={closeNavbar}
+                          onClick={() => {
+                            closeNavbar();
+                            scrollToTop();
+                          }}
                         >
                           Repair
                         </NavLink>
@@ -144,7 +178,10 @@ const Navbar = () => {
                   <NavLink
                     className="nav-link  fw-medium"
                     to="repair-maintenance"
-                    onClick={closeNavbar}
+                    onClick={() => {
+                      closeNavbar();
+                      scrollToTop();
+                    }}
                   >
                     Repair and Maintenance
                   </NavLink>
@@ -153,7 +190,10 @@ const Navbar = () => {
                   <NavLink
                     className="nav-link  fw-medium"
                     to="our-projects"
-                    onClick={closeNavbar}
+                    onClick={() => {
+                      closeNavbar();
+                      scrollToTop();
+                    }}
                   >
                     Our Projects
                   </NavLink>
@@ -161,7 +201,10 @@ const Navbar = () => {
                 <li className="nav-item">
                   <NavLink
                     className="support nav-link bg-white rounded-5 fw-medium text-center"
-                    onClick={closeNavbar}
+                    onClick={() => {
+                      closeNavbar();
+                      scrollToTop();
+                    }}
                     to="contact-us"
                   >
                     24/7 Support
@@ -191,7 +234,10 @@ const Navbar = () => {
                       className="nav-link  fw-medium"
                       aria-current="page"
                       to="about-us"
-                      onClick={closeNavbar}
+                      onClick={() => {
+                        closeNavbar();
+                        scrollToTop();
+                      }}
                     >
                       About Us
                     </NavLink>
@@ -200,7 +246,10 @@ const Navbar = () => {
                     <NavLink
                       className="nav-link  fw-medium"
                       to="testimonials"
-                      onClick={closeNavbar}
+                      onClick={() => {
+                        closeNavbar();
+                        scrollToTop();
+                      }}
                     >
                       Testimonials
                     </NavLink>
@@ -209,7 +258,10 @@ const Navbar = () => {
                     <NavLink
                       className="nav-link  fw-medium"
                       to="blog"
-                      onClick={closeNavbar}
+                      onClick={() => {
+                        closeNavbar();
+                        scrollToTop();
+                      }}
                     >
                       Blog
                     </NavLink>
@@ -218,7 +270,10 @@ const Navbar = () => {
                     <NavLink
                       className="nav-link  fw-medium"
                       to="contact-us"
-                      onClick={closeNavbar}
+                      onClick={() => {
+                        closeNavbar();
+                        scrollToTop();
+                      }}
                     >
                       Contact Us
                     </NavLink>
