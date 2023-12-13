@@ -1,7 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import IMG9 from "../assets/Accreditations (1).png";
 
 const HomeSectionThree = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="HomeSectionThree gap-3">
@@ -23,9 +26,15 @@ const HomeSectionThree = () => {
             giving you peace of mind that your air conditioning unit remains
             reliable and energy efficient.
           </p>
-          <Link to="contact-us" className=" read-more p-2 rounded-5 px-4">
+          <NavLink
+            to="contact-us"
+            className=" read-more p-2 rounded-5 px-4"
+            onClick={() => {
+              scrollToTop();
+            }}
+          >
             Discuss your project
-          </Link>
+          </NavLink>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Commercial Refrigeration Europe</h3>
@@ -43,7 +52,11 @@ const HomeSectionThree = () => {
             quick response time, top class service and quality of first time
             fix.
           </p>
-          <Link to="contact-us" className=" read-more p-2 rounded-5 px-4">
+          <Link
+            to="contact-us"
+            className=" read-more p-2 rounded-5 px-4"
+            onClick={scrollToTop}
+          >
             Request a Call Out
           </Link>
         </div>
@@ -60,7 +73,11 @@ const HomeSectionThree = () => {
             businesses can operate at their best – without the pains of slow and
             expensive repairs.
           </p>
-          <Link to="about-us" className=" read-more p-2 rounded-5 px-4">
+          <Link
+            to="about-us"
+            className=" read-more p-2 rounded-5 px-4"
+            onClick={scrollToTop}
+          >
             More about us
           </Link>
         </div>

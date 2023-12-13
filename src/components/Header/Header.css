@@ -19,12 +19,12 @@
   border: 1px solid transparent;
 }
 
-.dropdown-menu {
+.dropdown {
   background-color: #5dc9db;
   border: none !important;
 }
 
-.dropdown-item:hover {
+.doropdown-list:hover {
   background-color: white !important;
 }
 @media screen and (max-width: 1300px) {

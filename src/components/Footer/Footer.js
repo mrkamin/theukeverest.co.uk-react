@@ -7,11 +7,18 @@ import Logos from "./Logos";
 import "./footer.css";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <Logos />
       <div className="footer-container d-flex flex-column align-items-center justify-content-center">
-        <Link to="contact-us" className="fs-5 px-5 m-0 bg-white rounded-5">
+        <Link
+          to="contact-us"
+          className="fs-5 px-5 m-0 bg-white rounded-5"
+          onClick={scrollToTop}
+        >
           {" "}
           Click here for a No Obligation Quote or On-site Call Out
         </Link>
@@ -57,6 +64,7 @@ const Footer = () => {
           <Link
             to="about-us"
             className=" read-more p-2 rounded-5 px-4 text-center"
+            onClick={scrollToTop}
           >
             Read more{">"}
           </Link>

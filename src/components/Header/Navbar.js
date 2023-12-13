@@ -64,10 +64,10 @@ const Navbar = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     ></NavLink>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu dropdown">
                       <li>
                         <NavLink
-                          class="dropdown-item"
+                          className="dropdown-item doropdown-list"
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -79,7 +79,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class=" dropdown-item"
+                          className="dropdown-item doropdown-list"
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -91,7 +91,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class="dropdown-item"
+                          className="dropdown-item doropdown-list"
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -103,7 +103,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class="dropdown-item"
+                          className="dropdown-item doropdown-list"
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -134,10 +134,10 @@ const Navbar = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     ></NavLink>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu dropdown">
                       <li>
                         <NavLink
-                          class=" dropdown-item"
+                          className="dropdown-item doropdown-list"
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -149,7 +149,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class="nav-link dropdown-item"
+                          className="dropdown-item doropdown-list"
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -161,7 +161,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          class="nav-link dropdown-item"
+                          className="dropdown-item doropdown-list"
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();

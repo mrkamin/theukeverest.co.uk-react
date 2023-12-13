@@ -45,6 +45,9 @@ const Home = () => {
     return () => bannerAninmation.revert();
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="home position-relative">
       <div className="banner-container position-relative">
@@ -65,6 +68,7 @@ const Home = () => {
             to="our-projects"
             className="bannerMsgBtnleft border border-3 rounded-5 p-2"
             ref={leftAnimation}
+            onClick={scrollToTop}
           >
             OUR PROJECTS
           </Link>
@@ -72,6 +76,7 @@ const Home = () => {
             to="contact-us"
             className="bannerMsgBtnright border border-3 rounded-5  p-2"
             ref={rightAnimition}
+            onClick={scrollToTop}
           >
             DISCUSS YOUER PROJECTS
           </Link>

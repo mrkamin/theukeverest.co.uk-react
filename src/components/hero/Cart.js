@@ -5,6 +5,9 @@ import ACOUTDOOR from "../assets/outdoor unit ac.jpg";
 import { GiAutoRepair } from "react-icons/gi";
 
 const Cart = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="cart-container gap-3 w-100 p-3">
@@ -21,7 +24,11 @@ const Cart = () => {
               <p className="p-0 m-0">Specialist Design and Installation</p>
             </div>
           </div>
-          <Link to="air-conditioning" className="read-more p-2 rounded-5">
+          <Link
+            to="air-conditioning"
+            className="read-more p-2 rounded-5"
+            onClick={scrollToTop}
+          >
             Read more
           </Link>
         </div>
@@ -36,6 +43,7 @@ const Cart = () => {
           <Link
             to="commercial-refrigeration"
             className="read-more p-2 rounded-5"
+            onClick={scrollToTop}
           >
             Read more
           </Link>
@@ -50,7 +58,11 @@ const Cart = () => {
               </p>
             </div>
           </div>
-          <Link to="repair-maintenance" className="read-more p-2 rounded-5">
+          <Link
+            to="repair-maintenance"
+            className="read-more p-2 rounded-5"
+            onClick={scrollToTop}
+          >
             Read more
           </Link>
         </div>
