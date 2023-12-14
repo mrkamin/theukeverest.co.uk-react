@@ -11,7 +11,7 @@ const Cart = () => {
   return (
     <>
       <div className="cart-container gap-3 w-100 p-3">
-        <div className="cart-items w-100 d-flex flex-column text-center p-3 gap-3">
+        <div className="cart-items d-flex flex-column text-center p-3 gap-3">
           <div className="cart-item align-items-center justify-content-center text-center">
             <img
               src={AIRCONDITIONIMG}
@@ -26,7 +26,7 @@ const Cart = () => {
           </div>
           <Link
             to="air-conditioning"
-            className="read-more p-2 rounded-5"
+            className="read-more p-1 rounded-5"
             onClick={scrollToTop}
           >
             Read more
@@ -42,13 +42,13 @@ const Cart = () => {
           </div>
           <Link
             to="commercial-refrigeration"
-            className="read-more p-2 rounded-5"
+            className="read-more p-1 rounded-5"
             onClick={scrollToTop}
           >
             Read more
           </Link>
         </div>
-        <div className="cart-items w-100 d-flex flex-column text-center p-3 gap-3">
+        <div className="cart-items  d-flex flex-column text-center p-3 gap-3">
           <div className="cart-item align-items-center">
             <GiAutoRepair />
             <div className="text-start">
@@ -60,7 +60,7 @@ const Cart = () => {
           </div>
           <Link
             to="repair-maintenance"
-            className="read-more p-2 rounded-5"
+            className="read-more p-1 rounded-5"
             onClick={scrollToTop}
           >
             Read more
