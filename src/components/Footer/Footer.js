@@ -1,11 +1,11 @@
-import { FaFacebook } from "react-icons/fa";
-import { BsWhatsapp } from "react-icons/bs";
-import { Link } from "react-router-dom";
-import { SiMinutemailer } from "react-icons/si";
-import IMG1 from "../assets/Logo-2.png";
-import IMG9 from "../assets/Accreditations (1).png";
-import Logos from "./Logos";
-import "./footer.css";
+import { FaFacebook } from 'react-icons/fa';
+import { BsWhatsapp } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
+import { SiMinutemailer } from 'react-icons/si';
+import IMG1 from '../assets/Logo-2.png';
+import IMG9 from '../assets/Accreditations (1).png';
+import Logos from './Logos';
+import './footer.css';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
           className="fs-5 px-5 m-0 bg-white rounded-5"
           onClick={scrollToTop}
         >
-          {" "}
+          {' '}
           Click here for a No Obligation Quote or On-site Call Out
         </Link>
         <p className="fs-5 p-0 m-0">or Call us on 07473319304</p>
@@ -36,13 +36,16 @@ const Footer = () => {
           <div className="">
             <SiMinutemailer className="contact__options-icon" />
             <div className="d-flex">
-              <h4>Email:</h4>
+              <label htmlFor="email">Email:</label>
               <a
                 href="mailto:info@theukeverest.co.uk"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Email: info@theukeverest.co.uk"
               >
-                <span className="email">info@theukeverest.co.uk</span>
+                <span className="email" id="email">
+                  info@theukeverest.co.uk
+                </span>
               </a>
             </div>
           </div>
@@ -67,7 +70,8 @@ const Footer = () => {
             className=" read-more p-2 rounded-5 px-4 text-center"
             onClick={scrollToTop}
           >
-            Read more{">"}
+            Read more
+            {'>'}
           </Link>
           <img
             src={IMG9}

@@ -1,16 +1,16 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import "./App.css";
-import Header from "./components/Header/Header";
-import Home from "./components/hero/Home";
-import Footer from "./components/Footer/Footer";
-import AirCondBanner from "./components/AirConditioning/AirCondBanner";
-import Refergration from "./components/commercialReferg/Refergration";
-import RepairBanner from "./components/repair and maintenance/RepairBanner";
-import OurProjects from "./components/ourporject/OurProjects";
-import Contactform from "./components/contact/ContactForm";
-import Testimonials from "./components/testimonials/Testimonials";
-import Aboutas from "./components/about/Aboutas";
-import Blog from "./components/blog/Blog";
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import './App.css';
+import Header from './components/Header/Header';
+import Home from './components/hero/Home';
+import Footer from './components/Footer/Footer';
+import AirCondBanner from './components/AirConditioning/AirCondBanner';
+import Refergration from './components/commercialReferg/Refergration';
+import RepairBanner from './components/repair and maintenance/RepairBanner';
+import OurProjects from './components/ourporject/OurProjects';
+import Contactform from './components/contact/ContactForm';
+import Testimonials from './components/testimonials/Testimonials';
+import Aboutas from './components/about/Aboutas';
+import Blog from './components/blog/Blog';
 
 function App() {
   return (

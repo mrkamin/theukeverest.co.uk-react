@@ -1,5 +1,5 @@
-import { Link, NavLink } from "react-router-dom";
-import IMG9 from "../assets/Accreditations (1).png";
+import { Link, NavLink } from 'react-router-dom';
+import IMG9 from '../assets/Accreditations (1).png';
 
 const HomeSectionThree = () => {
   const scrollToTop = () => {
@@ -11,20 +11,26 @@ const HomeSectionThree = () => {
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Air-Conditioning</h3>
           <p className="text-align-justify">
-            We offer a{" "}
+            We offer a
+            {' '}
             <span className="brand-color">
               full design, installation and repair service
-            </span>{" "}
+            </span>
+            {' '}
             for all types of air conditioning systems.
             <br />
-            <br /> Air-Conditioning – VRV, VRF, Wall-mounted, Cassette,
+            <br />
+            {' '}
+            Air-Conditioning – VRV, VRF, Wall-mounted, Cassette,
             Floor-mounted, Ducted, Split System, and Multi-split
             <br />
             <br />
             As accredited installers all equipment supplied by is provided with
-            an extended <span className="brand-color">7 YEAR </span>WARRANTY
-            giving you peace of mind that your air conditioning unit remains
-            reliable and energy efficient.
+            an extended
+            {' '}
+            <span className="brand-color">7 YEAR </span>
+            WARRANTY giving you peace of mind that your air conditioning unit
+            remains reliable and energy efficient.
           </p>
           <NavLink
             to="contact-us"
@@ -41,12 +47,17 @@ const HomeSectionThree = () => {
           <p className="text-align-justify">
             <span className="brand-color">
               Installation, repair and maintenance.
-            </span>{" "}
-            <br /> <br />
+            </span>
+            {' '}
+            <br />
+            {' '}
+            <br />
             Walk-in Chiller / Freezer (Cold Room), Display Fridge / Freezer,
             Counter Fridge / Freezer, Upright Fridge / Freezer, Drink Fridge,
             Blast Chiller, Bottle Cooler, Cellar Cooler, Ice Maker / Machine,
-            Sub Zero / Medical Refrigeration <br />
+            Sub Zero / Medical Refrigeration
+            {' '}
+            <br />
             <br />
             <span className="brand-color">24/7 repair service providing –</span>
             quick response time, top class service and quality of first time

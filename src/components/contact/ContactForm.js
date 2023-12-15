@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
-import emailjs from "emailjs-com";
-import { HiMiniPhone } from "react-icons/hi2";
-import { IoLocation } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
+import React, { useRef, useState } from 'react';
+import emailjs from 'emailjs-com';
+import { HiMiniPhone } from 'react-icons/hi2';
+import { IoLocation } from 'react-icons/io5';
+import { MdEmail } from 'react-icons/md';
 import './contactForm.css';
 
 const Contactform = () => {
@@ -14,10 +14,10 @@ const Contactform = () => {
 
     emailjs
       .sendForm(
-        "service_mjg3nmi",
-        "template_bni9d7g",
+        'service_mjg3nmi',
+        'template_bni9d7g',
         form.current,
-        "ICkryGMcTL8bCrQoB"
+        'ICkryGMcTL8bCrQoB',
       )
       .then(() => {
         setIsEmailSent(true);
@@ -27,7 +27,7 @@ const Contactform = () => {
         }, 4000);
       })
       .catch((error) => {
-        console.error("Error sending email:", error);
+        console.error('Error sending email:', error);
       });
   };
 
@@ -54,8 +54,8 @@ const Contactform = () => {
             <div className="p-0 m-0">
               <p className="p-0 m-0">Address</p>
               <p className="p-0 m-0">
-              Unit B 11 Troonway Business Centre Humberstone
-            Lane Leicester LE4 9HA
+                Unit B 11 Troonway Business Centre Humberstone Lane Leicester
+                LE4 9HA
               </p>
             </div>
           </div>
@@ -66,11 +66,13 @@ const Contactform = () => {
               <p className="p-0 m-0">info@theukeverest.co.uk</p>
             </div>
           </div>
-          <div></div>
+          <div />
         </div>
         <div>
           <h3>
-            Europe’s Top Refrigeration company. <br />
+            Europe’s Top Refrigeration company.
+            {' '}
+            <br />
             Contact us
           </h3>
           <div className=" contact__container">

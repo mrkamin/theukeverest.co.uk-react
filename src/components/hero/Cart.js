@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import HomeSectionThree from "./HomeSectionThree";
-import AIRCONDITIONIMG from "../assets/air conditioning.png";
-import ACOUTDOOR from "../assets/outdoor unit ac.jpg";
-import { GiAutoRepair } from "react-icons/gi";
+import { Link } from 'react-router-dom';
+import { GiAutoRepair } from 'react-icons/gi';
+import HomeSectionThree from './HomeSectionThree';
+import AIRCONDITIONIMG from '../assets/air conditioning.png';
+import ACOUTDOOR from '../assets/outdoor unit ac.jpg';
 
 const Cart = () => {
   const scrollToTop = () => {

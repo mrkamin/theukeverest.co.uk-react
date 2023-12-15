@@ -1,9 +1,9 @@
-import React, { useLayoutEffect, useRef } from "react";
-import { gsap } from "gsap";
-import { Link } from "react-router-dom";
-import IMG from "../assets/banner1.jpg";
-import "./home.css";
-import Cart from "./Cart";
+import React, { useLayoutEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import { Link } from 'react-router-dom';
+import IMG from '../assets/banner1.jpg';
+import './home.css';
+import Cart from './Cart';
 
 const Home = () => {
   const rightAnimition = useRef();
@@ -11,35 +11,35 @@ const Home = () => {
 
   useLayoutEffect(() => {
     const bannerAninmation = gsap.context(() => {
-      gsap.from(".bannerMsgBtnleft", {
+      gsap.from('.bannerMsgBtnleft', {
         duration: 1,
-        x: "-600%",
-        ease: "",
+        x: '-600%',
+        ease: '',
       });
       gsap.to(leftAnimation.current, {
         duration: 1,
-        x: "0%",
-        ease: "",
+        x: '0%',
+        ease: '',
       });
-      gsap.from(".bannerMsgBtnright", {
+      gsap.from('.bannerMsgBtnright', {
         duration: 1,
-        x: "400%",
-        ease: "",
-      });
-      gsap.to(rightAnimition.current, {
-        duration: 1,
-        x: "0%",
-        ease: "",
-      });
-      gsap.from(".bannerUpAnimation", {
-        duration: 1,
-        y: "-400%",
-        ease: "",
+        x: '400%',
+        ease: '',
       });
       gsap.to(rightAnimition.current, {
         duration: 1,
-        y: "0%",
-        ease: "",
+        x: '0%',
+        ease: '',
+      });
+      gsap.from('.bannerUpAnimation', {
+        duration: 1,
+        y: '-400%',
+        ease: '',
+      });
+      gsap.to(rightAnimition.current, {
+        duration: 1,
+        y: '0%',
+        ease: '',
       });
     });
     return () => bannerAninmation.revert();

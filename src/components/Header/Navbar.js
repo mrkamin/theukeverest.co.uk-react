@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import StarSvg from "./StarSvg";
-import { BsWhatsapp } from "react-icons/bs";
-import IMG from "../assets/Logo2.png";
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { BsWhatsapp } from 'react-icons/bs';
+import StarSvg from './StarSvg';
+import IMG from '../assets/Logo2.png';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -39,14 +39,14 @@ const Navbar = () => {
               type="button"
               onClick={handleNavbarToggle}
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon" />
             </button>
             <div
-              className={`collapse navbar-collapse ${navbarOpen ? "show" : ""}`}
+              className={`collapse navbar-collapse ${navbarOpen ? 'show' : ''}`}
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <div className="d-flex">
                     <NavLink
                       className="nav-link fw-medium"
@@ -63,8 +63,8 @@ const Navbar = () => {
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
-                    ></NavLink>
-                    <ul class="dropdown-menu dropdown">
+                    />
+                    <ul className="dropdown-menu dropdown">
                       <li>
                         <NavLink
                           className="dropdown-item doropdown-list"
@@ -133,8 +133,8 @@ const Navbar = () => {
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
-                    ></NavLink>
-                    <ul class="dropdown-menu dropdown">
+                    />
+                    <ul className="dropdown-menu dropdown">
                       <li>
                         <NavLink
                           className="dropdown-item doropdown-list"
@@ -215,12 +215,12 @@ const Navbar = () => {
           </div>
         </nav>
         <div className="d-flex justify-content-end">
-          {" "}
+          {' '}
           <nav className="navbar navbar-expand-lg p-0 m-0">
             <div className="container-fluid">
               <div
                 className={`collapse navbar-collapse ${
-                  navbarOpen ? "show" : ""
+                  navbarOpen ? 'show' : ''
                 }`}
                 id="navbarSupportedContent"
               >

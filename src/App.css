@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 /* fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
 :root {
   --brand-color: #5dc8dbb6;
 }
@@ -25,7 +27,7 @@ span {
   font-weight: 700;
   border: none;
   border-radius: 0.3rem;
-  padding:  0 5px;
+  padding: 0 5px;
 }
 
 a {
@@ -34,6 +36,7 @@ a {
   color: #1f1f38;
   border: 1px solid transparent;
 }
+
 button {
   font-weight: 900;
   color: #1f1f38;
@@ -43,13 +46,13 @@ button {
 a:hover {
   background-color: transparent !important;
   border-color: #1f1f38 !important;
-  color:#1f1f38 !important;
+  color: #1f1f38 !important;
 }
 
 button:hover {
   background-color: transparent !important;
   border-color: #1f1f38 !important;
-  color:#1f1f38 !important;
+  color: #1f1f38 !important;
 }
 
 .read-more {
@@ -63,7 +66,6 @@ button:hover {
 .accredation {
   width: 100%;
 }
-
 
 @media screen and (max-width: 500px) {
   .read-more {

@@ -12,7 +12,6 @@
   width: 100%;
   display: flex !important;
   justify-content: flex-end !important;
-  
 }
 
 .support {
@@ -27,12 +26,14 @@
 .doropdown-list:hover {
   background-color: white !important;
 }
+
 @media screen and (max-width: 1300px) {
   .header {
     padding: 5px 5px;
     font-size: 15px;
   }
 }
+
 @media screen and (max-width: 991px) {
   .header {
     padding: 0 0;
@@ -42,7 +43,7 @@
   .header-navbar {
     flex-direction: column !important;
   }
-  
+
   .review {
     display: none !important;
   }
@@ -52,14 +53,6 @@
   }
 
   .navbar-contact {
-    flex-direction: column ;
+    flex-direction: column;
   }
 }
-
-
-
-
-
-
-
-

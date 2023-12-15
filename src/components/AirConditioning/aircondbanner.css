@@ -23,9 +23,9 @@
 }
 
 .air-cond-sys-contact-info {
-position: sticky !important;
-top: 150px;
-height: 200px;
+  position: sticky !important;
+  top: 150px;
+  height: 200px;
 }
 
 .air-cond-projects {
@@ -65,10 +65,12 @@ height: 200px;
   .cart-items {
     width: 100% !important;
   }
+
   .air-cart-item {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .air-cond-projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
