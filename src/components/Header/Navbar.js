@@ -37,6 +37,7 @@ const Navbar = () => {
             <button
               className="navbar-toggler"
               type="button"
+              aria-label="Email: info@theukeverest.co.uk"
               onClick={handleNavbarToggle}
             >
               <span className="navbar-toggler-icon" />
@@ -287,6 +288,8 @@ const Navbar = () => {
                         href="https://api.whatsapp.com//send?phone=00447473319304"
                         target="_blank"
                         rel="noopener noreferrer"
+                        role="button"
+                        aria-label="Email: info@theukeverest.co.uk"
                         className="footer-socials rounded-5"
                       >
                         <BsWhatsapp className="contact__options-icon" />

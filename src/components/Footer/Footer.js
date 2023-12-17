@@ -36,12 +36,12 @@ const Footer = () => {
           <div className="">
             <SiMinutemailer className="contact__options-icon" />
             <div className="d-flex">
-              <label htmlFor="email">Email:</label>
+              <h4>Email:</h4>
               <a
                 href="mailto:info@theukeverest.co.uk"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Email: info@theukeverest.co.uk"
+                role="button"
               >
                 <span className="email" id="email">
                   info@theukeverest.co.uk
@@ -53,6 +53,8 @@ const Footer = () => {
             href="https://api.whatsapp.com//send?phone=00447473319304"
             target="_blank"
             rel="noopener noreferrer"
+            role="button"
+            aria-label="Email: info@theukeverest.co.uk"
             className="footer-socials rounded-5"
           >
             <BsWhatsapp className="contact__options-icon" />
@@ -133,6 +135,8 @@ const Footer = () => {
             href="https://www.facebook.com/mrkamin2"
             target="_blank"
             rel="noopener noreferrer"
+            role="button"
+            aria-label="Email: info@theukeverest.co.uk"
             className="footer-socials rounded-5"
           >
             <FaFacebook />

@@ -1,4 +1,5 @@
 import { GiCheckMark } from 'react-icons/gi';
+import { Link } from 'react-router-dom';
 import IMG1 from '../assets/aboutus/1.png';
 import IMG2 from '../assets/aboutus/2.jpg';
 import IMG4 from '../assets/aboutus/11.jpg';
@@ -10,9 +11,8 @@ import IMG8 from '../assets/aboutus/7.png';
 import IMG9 from '../assets/aboutus/8.png';
 import IMG10 from '../assets/aboutus/9.png';
 import IMG11 from '../assets/aboutus/10.jpg';
-import IMG12 from '../assets/aboutus/11.jpg';
+import IMG12 from '../assets/aboutus/11 copy.jpg';
 import './aboutas.css';
-import { Link } from 'react-router-dom';
 
 const Aboutas = () => (
   <>
@@ -125,9 +125,13 @@ const Aboutas = () => (
       <div className="d-flex flex-column gap-5">
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p
+              to="about-us"
+              rel="noopener noreferrer"
+              className="footer-socials rounded-5"
+            >
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> 10+ Years Experience</h5>
@@ -136,9 +140,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> 1510+ Jobs Completed</h5>
@@ -147,9 +151,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> 5 Star Google Reviews</h5>
@@ -158,9 +162,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> 10+ Years Experience</h5>
@@ -171,9 +175,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> 24/7 Emergency Response</h5>
@@ -182,9 +186,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> High First Time Fix</h5>
@@ -193,9 +197,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> Guaranteed Customer Satisfaction</h5>
@@ -204,9 +208,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> High Efficiency and Performance</h5>
@@ -215,9 +219,9 @@ const Aboutas = () => (
         </div>
         <div className="d-flex gap-3">
           <div className="">
-            <a rel="noopener noreferrer" className="footer-socials rounded-5">
+            <p rel="noopener noreferrer" className="footer-socials rounded-5">
               <GiCheckMark />
-            </a>
+            </p>
           </div>
           <div className="d-flx flex-column">
             <h5 className="p-0 m-0"> High Energy Rating</h5>
