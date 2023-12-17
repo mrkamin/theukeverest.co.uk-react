@@ -1,7 +1,8 @@
+.headroom {
+  z-index: 5 !important;
+}
 .header {
-  position: sticky;
   width: 100%;
-  z-index: 5;
   background: #5dc9db;
   padding: 5px 80px;
   font-size: 18px;
