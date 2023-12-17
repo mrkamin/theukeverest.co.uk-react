@@ -1,11 +1,14 @@
+import Headroom from 'react-headroom';
 import Navbar from './Navbar';
 import './Header.css';
 
 const Header = () => (
   <>
-    <div className="header">
-      <Navbar />
-    </div>
+    <Headroom>
+      <div className="header">
+        <Navbar />
+      </div>
+    </Headroom>
   </>
 );
 
