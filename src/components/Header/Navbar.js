@@ -32,7 +32,7 @@ const Navbar = () => {
                 scrollToTop();
               }}
             >
-              <img src={IMG} alt="Logo" height={60} />
+              <img src={IMG} alt="Logo" height={55} />
             </NavLink>
             <button
               className="navbar-toggler"
