@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import IMG9 from '../assets/Accreditations (1).png';
 
 const HomeSectionThree = () => {
@@ -32,15 +32,17 @@ const HomeSectionThree = () => {
             WARRANTY giving you peace of mind that your air conditioning unit
             remains reliable and energy efficient.
           </p>
-          <NavLink
-            to="contact-us"
-            className=" read-more p-2 rounded-5 px-4"
-            onClick={() => {
-              scrollToTop();
-            }}
-          >
-            Discuss your project
-          </NavLink>
+          <div className="d-flex justify-content-end">
+            <NavLink
+              to="contact-us"
+              className=" read-more rounded-5 px-2"
+              onClick={() => {
+                scrollToTop();
+              }}
+            >
+              Discuss your project
+            </NavLink>
+          </div>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Commercial Refrigeration Europe</h3>
@@ -63,13 +65,15 @@ const HomeSectionThree = () => {
             quick response time, top class service and quality of first time
             fix.
           </p>
-          <Link
-            to="contact-us"
-            className=" read-more p-2 rounded-5 px-4"
-            onClick={scrollToTop}
-          >
-            Request a Call Out
-          </Link>
+          <div className="d-flex justify-content-end">
+            <NavLink
+              to="contact-us"
+              className=" read-more rounded-5 px-2"
+              onClick={scrollToTop}
+            >
+              Request a Call Out
+            </NavLink>
+          </div>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
           <h3>Fully Accredited Services</h3>
@@ -84,13 +88,15 @@ const HomeSectionThree = () => {
             businesses can operate at their best – without the pains of slow and
             expensive repairs.
           </p>
-          <Link
-            to="about-us"
-            className=" read-more p-2 rounded-5 px-4"
-            onClick={scrollToTop}
-          >
-            More about us
-          </Link>
+          <div className="d-flex justify-content-end">
+            <NavLink
+              to="about-us"
+              className=" read-more rounded-5 px-2"
+              onClick={scrollToTop}
+            >
+              More about us
+            </NavLink>
+          </div>
         </div>
       </div>
     </>

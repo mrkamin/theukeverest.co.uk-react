@@ -50,7 +50,7 @@ const Navbar = () => {
                 <li className="nav-item dropdown">
                   <div className="d-flex">
                     <NavLink
-                      className="nav-link nav-suppurt fw-medium"
+                      className="nav-link nav-suppurt "
                       to="air-conditioning"
                       onClick={() => {
                         closeNavbar();
@@ -120,7 +120,7 @@ const Navbar = () => {
                 <li className="nav-item dropdown">
                   <div className="d-flex">
                     <NavLink
-                      className="nav-link nav-suppurt fw-medium"
+                      className="nav-link nav-suppurt "
                       to="commercial-refrigeration"
                       onClick={() => {
                         closeNavbar();
@@ -130,7 +130,7 @@ const Navbar = () => {
                       Commercial Refrigeration
                     </NavLink>
                     <NavLink
-                      className="nav-link dropdown-toggle nav-suppurt fw-medium"
+                      className="nav-link dropdown-toggle nav-suppurt "
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -177,7 +177,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link  nav-suppurt fw-medium"
+                    className="nav-link  nav-suppurt "
                     to="repair-maintenance"
                     onClick={() => {
                       closeNavbar();
@@ -189,7 +189,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link  nav-suppurt fw-medium"
+                    className="nav-link  nav-suppurt "
                     to="our-projects"
                     onClick={() => {
                       closeNavbar();
@@ -201,7 +201,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="support nav-link bg-white rounded-5 nav-suppurt fw-medium text-center"
+                    className="support nav-link bg-white rounded-5 nav-suppurt  text-center"
                     onClick={() => {
                       closeNavbar();
                       scrollToTop();
@@ -232,7 +232,7 @@ const Navbar = () => {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-medium"
+                      className="nav-link  nav-suppurt "
                       aria-current="page"
                       to="about-us"
                       onClick={() => {
@@ -245,7 +245,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-medium"
+                      className="nav-link  nav-suppurt "
                       to="testimonials"
                       onClick={() => {
                         closeNavbar();
@@ -257,7 +257,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-medium"
+                      className="nav-link  nav-suppurt "
                       to="blog"
                       onClick={() => {
                         closeNavbar();
@@ -269,7 +269,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-medium"
+                      className="nav-link  nav-suppurt "
                       to="contact-us"
                       onClick={() => {
                         closeNavbar();
@@ -280,7 +280,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <div className="d-flex gap-1 navbar-contact ">
-                    <li className=" d-flex nav-link bg-white  rounded-5 nav-suppurt fw-medium justify-content-center align-items-center">
+                    <li className=" d-flex nav-link bg-white  rounded-5 nav-suppurt  justify-content-center align-items-center">
                       <p className="p-0 m-0">07473319304</p>
                     </li>
                     <li className="nav-item px-1">

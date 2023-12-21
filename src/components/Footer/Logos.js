@@ -7,7 +7,7 @@ import IMG7 from '../assets/Williams-Refrigeration.png';
 import IMG8 from '../assets/True-Refrigeration-1.png';
 
 const Logos = () => (
-  <div className="swiper d-flex flex-column">
+  <div className="swiper d-flex flex-column py-5">
     <div className="swiper-slide">
       <img src={IMG1} alt="swiper image1" />
       <img src={IMG2} alt="swiper image2" />
