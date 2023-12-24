@@ -50,7 +50,7 @@ const Navbar = () => {
                 <li className="nav-item dropdown">
                   <div className="d-flex">
                     <NavLink
-                      className="nav-link nav-suppurt "
+                      className="nav-link nav-suppurt fw-bold"
                       to="air-conditioning"
                       onClick={() => {
                         closeNavbar();
@@ -92,7 +92,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          className="dropdown-item doropdown-list"
+                          className="dropdown-item doropdown-list "
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -104,7 +104,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <NavLink
-                          className="dropdown-item doropdown-list"
+                          className="dropdown-item doropdown-list "
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -120,7 +120,7 @@ const Navbar = () => {
                 <li className="nav-item dropdown">
                   <div className="d-flex">
                     <NavLink
-                      className="nav-link nav-suppurt "
+                      className="nav-link nav-suppurt fw-bold"
                       to="commercial-refrigeration"
                       onClick={() => {
                         closeNavbar();
@@ -138,7 +138,7 @@ const Navbar = () => {
                     <ul className="dropdown-menu dropdown">
                       <li>
                         <NavLink
-                          className="dropdown-item doropdown-list"
+                          className="dropdown-item doropdown-list "
                           to="commercial-refrigeration"
                           onClick={() => {
                             closeNavbar();
@@ -177,7 +177,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link  nav-suppurt "
+                    className="nav-link  nav-suppurt fw-bold"
                     to="repair-maintenance"
                     onClick={() => {
                       closeNavbar();
@@ -189,7 +189,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link  nav-suppurt "
+                    className="nav-link  nav-suppurt fw-bold"
                     to="our-projects"
                     onClick={() => {
                       closeNavbar();
@@ -201,7 +201,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="support nav-link bg-white rounded-5 nav-suppurt  text-center"
+                    className="support nav-link fw-bold rounded-5 nav-suppurt text-center "
                     onClick={() => {
                       closeNavbar();
                       scrollToTop();
@@ -232,7 +232,7 @@ const Navbar = () => {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt "
+                      className="nav-link  nav-suppurt fw-bold"
                       aria-current="page"
                       to="about-us"
                       onClick={() => {
@@ -245,7 +245,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt "
+                      className="nav-link  nav-suppurt fw-bold"
                       to="testimonials"
                       onClick={() => {
                         closeNavbar();
@@ -257,7 +257,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt "
+                      className="nav-link  nav-suppurt fw-bold"
                       to="blog"
                       onClick={() => {
                         closeNavbar();
@@ -269,7 +269,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt "
+                      className="nav-link  nav-suppurt fw-bold"
                       to="contact-us"
                       onClick={() => {
                         closeNavbar();
