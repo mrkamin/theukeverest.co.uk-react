@@ -3,7 +3,7 @@
 }
 .header {
   width: 100%;
-  background: #5dc9db;
+  background: linear-gradient(#40c5f2, #0097c8);
   padding: 5px 80px;
   font-size: 18px;
   top: 0;
@@ -19,9 +19,10 @@
   border: 1px solid transparent;
 }
 
-.dropdown {
-  background-color: #5dc9db;
+.dropdown-menu {
+  background: linear-gradient( #0097c8, #40c5f2);
   border: none !important;
+  margin-top: 17px !important;
 }
 
 .doropdown-list:hover {
