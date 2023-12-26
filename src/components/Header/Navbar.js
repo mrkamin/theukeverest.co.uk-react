@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
 import StarSvg from './StarSvg';
-import IMG from '../assets/Logo-transparant.png';
+import IMG from '../assets/Logo-transparant-3.png';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -32,7 +32,7 @@ const Navbar = () => {
                 scrollToTop();
               }}
             >
-              <img src={IMG} alt="Logo" height={55} className="" />
+              <img src={IMG} alt="Logo" height={50} className="" />
             </NavLink>
             <button
               className="navbar-toggler"
@@ -227,7 +227,7 @@ const Navbar = () => {
               >
                 <div className="d-flex align-items-center review">
                   <StarSvg />
-                  <p className="p-0 m-0">Review</p>
+                  <p className="p-0 m-0 text-white fw-bold">Review</p>
                 </div>
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li className="nav-item">
@@ -292,7 +292,7 @@ const Navbar = () => {
                         aria-label="Email: info@theukeverest.co.uk"
                         className="footer-socials rounded-5 p-1"
                       >
-                        <BsWhatsapp className="contact__options-icon" />
+                        <BsWhatsapp className="" />
                       </a>
                     </li>
                   </div>
