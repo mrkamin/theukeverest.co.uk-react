@@ -17,13 +17,13 @@ const Footer = () => {
       <div className="footer-container d-flex flex-column align-items-center justify-content-center">
         <Link
           to="contact-us"
-          className="fs-5 px-5 m-0 bg-white rounded-5"
+          className="fs-5 px-5 m-0 rounded-5"
           onClick={scrollToTop}
         >
           {' '}
           Click here for a No Obligation Quote or On-site Call Out
         </Link>
-        <p className="fs-5 p-0 m-0">or Call us on 07473319304</p>
+        <p className="fs-5 p-0 m-0 text-white">or Call us on 07473319304</p>
       </div>
       <div className="HomeSectionThree gap-3 mt-2">
         <div className="homeSectionThreeItem p-4 text-start d-flex flex-column justify-content-start align-items-start">

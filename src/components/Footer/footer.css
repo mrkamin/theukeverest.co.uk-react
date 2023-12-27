@@ -4,7 +4,7 @@
 
 .footer-container {
   height: 150px;
-  background-color: #5dc9db;
+  background: linear-gradient(#40c5f2, #0097c8);
 }
 
 .footer-socials {
@@ -24,7 +24,7 @@
 
 .footer-container2 {
   height: 50px;
-  background-color: #5dc9db;
+  background: linear-gradient(#40c5f2, #0097c8);
 }
 
 @media screen and (max-width: 1366px) {
