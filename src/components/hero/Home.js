@@ -56,10 +56,10 @@ const Home = () => {
       </div>
       <div className="banner-msg d-flex flex-column position-absolute align-items-center">
         <div className="banner-msg-p d-flex flex-column align-items-center px-3">
-          <h1 className="p-0 m-0 bannerUpAnimation" ref={rightAnimition}>
+          <h1 className="p-0 m-0 bannerUpAnimation text-white" ref={rightAnimition}>
             Air Conditioning & Refrigeration Europe
           </h1>
-          <p className="p-0 m-0 fs-5 paragraphAminiation" ref={leftAnimation}>
+          <p className="p-0 m-0 fs-5 paragraphAminiation text-white" ref={leftAnimation}>
             Specialist Aircon Installation & Commercial Refrigeration Service
           </p>
         </div>
