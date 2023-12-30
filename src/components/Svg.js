@@ -1,7 +1,7 @@
 export const Svg1 = () => (
   <>
     <svg
-      fill="#5dc9db"
+      fill="#0097c8"
       version="1.1"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export const Svg1 = () => (
 export const Svg2 = () => (
   <>
     <svg
-      fill="#5dc9db"
+      fill="#0097c8"
       height="200px"
       width="200px"
       version="1.1"

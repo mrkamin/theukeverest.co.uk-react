@@ -48,7 +48,7 @@ const Cart = () => {
         </div>
         <div className="cart-items  d-flex flex-column text-center p-3 gap-3">
           <div className="cart-item align-items-center">
-            <GiAutoRepair fill="#5dc9db" />
+            <GiAutoRepair fill="#0097c8" />
             <div className="text-start">
               <h3 className="p-0 m-0">Repair and Maintenance</h3>
               <p className="p-0 m-0">
