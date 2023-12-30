@@ -44,13 +44,13 @@ button {
 }
 
 a:hover {
-  background-color: transparent !important;
+  background: transparent !important;
   border-color: #1f1f38 !important;
   color: #1f1f38 !important;
 }
 
 button:hover {
-  background-color: transparent !important;
+  background: transparent !important;
   border-color: #1f1f38 !important;
   color: #1f1f38 !important;
 }
