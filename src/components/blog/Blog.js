@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import sanityClient from '../client';
+import './blog.css';
 
 const Blog = () => {
   const [projects, setProjects] = useState(null);
@@ -32,14 +33,14 @@ const Blog = () => {
           <br />
           Learn more about the products and services we offer
         </p>
-        <div className="grid">
+        <div className="grid gap-3">
           {projects && projects.map((post) => (
             <article key={post.slug.current}>
-              <Link to={`/post/${post.slug.current}`} key={post.slug.currect}>
+              <Link to={`/post/${post.slug.current}`} key={post.slug.currect} className="text-dark">
                 <img
                   src={post.mainImage.asset.url}
                   alt={post.mainImage.alt}
-                  className=""
+                  className="project-image"
                 />
                 <h3>{post.title}</h3>
               </Link>
