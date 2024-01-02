@@ -21,6 +21,11 @@ body {
   position: relative;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
 span {
   background-color: var(--brand-color);
   font-size: larger;

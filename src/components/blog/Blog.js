@@ -24,7 +24,7 @@ const Blog = () => {
   });
   return (
     <main>
-      <section>
+      <section className="d-flex flex-column align-items-center p-5">
         <h1>Air conditioning & Refrigeration Blog</h1>
         <p>
           Stories, News and Information about Air conditioning and
@@ -32,20 +32,16 @@ const Blog = () => {
           <br />
           Learn more about the products and services we offer
         </p>
-        <div>
+        <div className="grid">
           {projects && projects.map((post) => (
             <article key={post.slug.current}>
               <Link to={`/post/${post.slug.current}`} key={post.slug.currect}>
-                <span className="">
-                  <img
-                    src={post.mainImage.asset.url}
-                    alt={post.mainImage.alt}
-                    className=""
-                  />
-                  <span>
-                    <h3>{post.title}</h3>
-                  </span>
-                </span>
+                <img
+                  src={post.mainImage.asset.url}
+                  alt={post.mainImage.alt}
+                  className=""
+                />
+                <h3>{post.title}</h3>
               </Link>
             </article>
           ))}
