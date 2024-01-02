@@ -1,6 +1,7 @@
 .headroom {
   z-index: 10 !important;
 }
+
 .header {
   width: 100%;
   background: linear-gradient(#40c5f2, #0097c8);
@@ -20,7 +21,7 @@
 }
 
 .dropdown-menu {
-  background: linear-gradient( #0097c8, #40c5f2);
+  background: linear-gradient(#0097c8, #40c5f2);
   border: none !important;
   margin-top: 17px !important;
 }
