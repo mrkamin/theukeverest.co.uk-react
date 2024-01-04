@@ -11,6 +11,7 @@ import Contactform from './components/contact/ContactForm';
 import Testimonials from './components/testimonials/Testimonials';
 import Aboutas from './components/about/Aboutas';
 import Blog from './components/blog/Blog';
+import SendTestimonials from './components/testimonials/SendTestimonials';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="testimonials" element={<Testimonials />} />
           <Route path="about-us" element={<Aboutas />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="send-testimonials" element={<SendTestimonials />} />
         </Routes>
         <Footer />
       </div>

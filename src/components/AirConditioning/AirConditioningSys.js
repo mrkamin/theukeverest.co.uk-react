@@ -71,7 +71,7 @@ const AirConditioningSys = () => (
               </p>
             </div>
           </div>
-          <Link to="air-conditioning" className="read-more p-2 rounded-5">
+          <Link to="/air-conditioning" className="read-more p-2 rounded-5">
             Read more
           </Link>
         </div>
@@ -87,7 +87,7 @@ const AirConditioningSys = () => (
               </p>
             </div>
           </div>
-          <Link to="air-conditioning" className="read-more p-2 rounded-5">
+          <Link to="/air-conditioning" className="read-more p-2 rounded-5">
             Read more
           </Link>
         </div>
@@ -105,7 +105,7 @@ const AirConditioningSys = () => (
               </p>
             </div>
           </div>
-          <Link to="air-conditioning" className="read-more p-2 rounded-5">
+          <Link to="/air-conditioning" className="read-more p-2 rounded-5">
             Read more
           </Link>
         </div>
@@ -134,7 +134,7 @@ const AirConditioningSys = () => (
               </p>
             </div>
           </div>
-          <Link to="air-conditioning" className="read-more p-2 rounded-5">
+          <Link to="/air-conditioning" className="read-more p-2 rounded-5">
             Read more
           </Link>
         </div>
@@ -160,7 +160,7 @@ const AirConditioningSys = () => (
               </p>
             </div>
           </div>
-          <Link to="air-conditioning" className="read-more p-2 rounded-5">
+          <Link to="/air-conditioning" className="read-more p-2 rounded-5">
             Read more
           </Link>
         </div>
@@ -170,7 +170,7 @@ const AirConditioningSys = () => (
         <h1>07473319304</h1>
         <p>
           <span>
-            <Link to="contact-us" className="rounded-4">
+            <Link to="/contact-us" className="rounded-4">
               email us
             </Link>
           </span>
