@@ -79,7 +79,7 @@ const SendTestimonials = () => {
                   type="submit"
                   className="contact-btn read-more rounded-5"
                 >
-                  Send Message
+                  Submit testimonials
                 </button>
               </form>
             )}
