@@ -2,7 +2,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { BsWhatsapp } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { SiMinutemailer } from 'react-icons/si';
-import IMG1 from '../assets/Logo-2.png';
+import { SvgLogoBlue } from '../Svg';
 import IMG9 from '../assets/Accreditations (1).png';
 import Logos from './Logos';
 import './footer.css';
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       <div className="HomeSectionThree gap-3 mt-2">
         <div className="homeSectionThreeItem p-4 text-start d-flex flex-column justify-content-start align-items-start">
-          <img src={IMG1} alt="logo2" height={100} className="pb-3 logoimage" />
+          <SvgLogoBlue />
           <h3>Call: 07473319304</h3>
           <p className="text-align-justify">
             Address: Unit B 11 Troonway Business Centre Humberstone Lane

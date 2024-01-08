@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
 import StarSvg from './StarSvg';
-import IMG from '../assets/Logo-transparant-10.png';
+import { SvgLogo } from '../Svg';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -32,7 +32,7 @@ const Navbar = () => {
                 scrollToTop();
               }}
             >
-              <img src={IMG} alt="Logo" height={80} className="logo" />
+              <SvgLogo className="w-25" />
             </NavLink>
             <button
               className="navbar-toggler"
