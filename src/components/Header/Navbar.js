@@ -289,7 +289,7 @@ const Navbar = () => {
                         rel="noopener noreferrer"
                         role="button"
                         aria-label="Email: info@theukeverest.co.uk"
-                        className="footer-socials rounded-5 p-1"
+                        className="whats-up-icon rounded-5 p-1"
                       >
                         <BsWhatsapp className="" />
                       </a>

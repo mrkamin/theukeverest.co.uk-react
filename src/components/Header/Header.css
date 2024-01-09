@@ -35,6 +35,21 @@
   padding-bottom: 0 !important;
 }
 
+.whats-up-icon {
+  display: flex;
+  background-color: #fff;
+  color: #0097c8 !important;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  border: 1px solid transparent;
+}
+
+.whats-up-icon:hover {
+  background: transparent;
+  color: #1f1f38;
+  border-color: #1f1f38;
+}
+
 @media screen and (max-width: 1300px) {
   .header {
     padding: 5px 5px;
