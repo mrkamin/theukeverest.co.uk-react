@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
-import { StarSvg, SvgLogo, SvgNavIcon } from '../Svg';
+import { SvgLogo, SvgNavIcon } from '../Svg';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -46,76 +46,6 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item dropdown">
-                  <div className="d-flex dropdown-list">
-                    <NavLink
-                      className="nav-link nav-suppurt fw-bold fs-6"
-                      to="air-conditioning"
-                      onClick={() => {
-                        closeNavbar();
-                        scrollToTop();
-                      }}
-                    >
-                      Air-Conditioning
-                    </NavLink>
-                    <NavLink
-                      className="nav-link dropdown-toggle nav-suppurt"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    />
-                    <ul className="dropdown-menu dropdown">
-                      <li>
-                        <NavLink
-                          className="dropdown-item doropdown-list"
-                          to="commercial-refrigeration"
-                          onClick={() => {
-                            closeNavbar();
-                            scrollToTop();
-                          }}
-                        >
-                          Domestic Split Installation Offer
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          className="dropdown-item doropdown-list"
-                          to="commercial-refrigeration"
-                          onClick={() => {
-                            closeNavbar();
-                            scrollToTop();
-                          }}
-                        >
-                          Residential Installation
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          className="dropdown-item doropdown-list "
-                          to="commercial-refrigeration"
-                          onClick={() => {
-                            closeNavbar();
-                            scrollToTop();
-                          }}
-                        >
-                          Maintenance & Service
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          className="dropdown-item doropdown-list "
-                          to="commercial-refrigeration"
-                          onClick={() => {
-                            closeNavbar();
-                            scrollToTop();
-                          }}
-                        >
-                          Repair
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
                 <li className="nav-item dropdown">
                   <div className="d-flex dropdown-list">
                     <NavLink
@@ -224,10 +154,6 @@ const Navbar = () => {
                 }`}
                 id="navbarSupportedContent"
               >
-                <div className="d-flex align-items-center">
-                  <StarSvg />
-                  <p className="p-0 m-0 text-white fw-bold fs-6">Review</p>
-                </div>
                 <ul className="navbar-nav mb-lg-0 my-1">
                   <li className="nav-item">
                     <NavLink
