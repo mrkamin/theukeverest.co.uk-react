@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
-import { StarSvg, SvgLogo } from '../Svg';
+import { StarSvg, SvgLogo, SvgNavIcon } from '../Svg';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -34,12 +34,12 @@ const Navbar = () => {
               <SvgLogo className="logo" />
             </NavLink>
             <button
-              className="navbar-toggler m-4"
+              className="navbar-toggler bg-white"
               type="button"
               aria-label="Email: info@theukeverest.co.uk"
               onClick={handleNavbarToggle}
             >
-              <span className="navbar-toggler-icon" />
+              <SvgNavIcon />
             </button>
             <div
               className={`collapse navbar-collapse ${navbarOpen ? 'show' : ''}`}
@@ -47,7 +47,7 @@ const Navbar = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item dropdown">
-                  <div className="d-flex">
+                  <div className="d-flex dropdown-list">
                     <NavLink
                       className="nav-link nav-suppurt fw-bold fs-6"
                       to="air-conditioning"
@@ -117,7 +117,7 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li className="nav-item dropdown">
-                  <div className="d-flex">
+                  <div className="d-flex dropdown-list">
                     <NavLink
                       className="nav-link nav-suppurt fw-bold fs-6"
                       to="commercial-refrigeration"

@@ -24,6 +24,7 @@
   background: linear-gradient(#0097c8, #40c5f2);
   border: none !important;
   margin-top: 32px !important;
+  overflow: hidden;
 }
 
 .logo {
@@ -32,6 +33,7 @@
 
 .doropdown-list {
   transition: all 800ms ease;
+
 }
 
 .doropdown-list:hover {
@@ -118,4 +120,10 @@
       color: #0097c8 !important;
       padding: 0 5px;
     }
+}
+
+@media screen and (max-width: 500px) {
+ .dropdown-list {
+  flex-direction: column;
+ }
 }

@@ -65,7 +65,9 @@ a {
 button {
   font-weight: 900;
   color: #fff !important;
-  border: 1px solid transparent;
+  border: 0.5px solid transparent;
+  transition: all 500ms ease;
+  padding: 3px !important;
 }
 
 a:hover {
@@ -75,9 +77,15 @@ a:hover {
 }
 
 button:hover {
-  background: transparent !important;
+  background-color: #dfc7df !important;
   border-color: #1f1f38 !important;
   color: #1f1f38 !important;
+}
+rect {
+  transition: all 500ms ease;
+}
+button svg rect:hover {
+  fill: #1f1f38;
 }
 
 .read-more {

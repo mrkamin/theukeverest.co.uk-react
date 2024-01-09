@@ -520,3 +520,18 @@ export const SvgLogoBlue = () => (
     </svg>
   </>
 );
+
+export const SvgNavIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 5
+    5"
+    height={20}
+    width={20}
+    className="p-0 m-0"
+  >
+    <rect width="5" height="1" rx="0.5" fill="#0097c8" />
+    <rect y="1.8" width="5" height="1" rx="0.5" fill="#0097c8" />
+    <rect y="3.6" width="5" height="1" rx="0.5" fill="#0097c8" />
+  </svg>
+);
