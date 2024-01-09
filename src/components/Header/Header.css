@@ -111,4 +111,11 @@
     height: 80px;
     width: 150px;
     }
+
+    .support {
+      width: fit-content !important;
+      background-color: #fff;
+      color: #0097c8 !important;
+      padding: 0 5px;
+    }
 }
