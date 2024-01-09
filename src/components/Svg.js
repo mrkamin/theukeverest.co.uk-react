@@ -118,7 +118,8 @@ export const SvgLogo = () => (
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="150"
       height="80"
-      viewBox="0 0 2000 929"
+      viewBox="0 0 2000 1000"
+      className="svg-logo"
     >
       <g transform="matrix(1,0,0,1,-1.2121212121212466,0.34150260382273245)">
         <svg

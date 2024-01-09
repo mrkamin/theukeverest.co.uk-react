@@ -24,17 +24,17 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg p-0 m-0">
           <div className="container-fluid">
             <NavLink
-              className="navbar-brand rounded-3"
+              className="navbar-brand rounded-3 logo"
               to="/"
               onClick={() => {
                 closeNavbar();
                 scrollToTop();
               }}
             >
-              <SvgLogo className="w-25" />
+              <SvgLogo className="logo" />
             </NavLink>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler m-4"
               type="button"
               aria-label="Email: info@theukeverest.co.uk"
               onClick={handleNavbarToggle}
@@ -49,7 +49,7 @@ const Navbar = () => {
                 <li className="nav-item dropdown">
                   <div className="d-flex">
                     <NavLink
-                      className="nav-link nav-suppurt fw-bold"
+                      className="nav-link nav-suppurt fw-bold fs-6"
                       to="air-conditioning"
                       onClick={() => {
                         closeNavbar();
@@ -119,7 +119,7 @@ const Navbar = () => {
                 <li className="nav-item dropdown">
                   <div className="d-flex">
                     <NavLink
-                      className="nav-link nav-suppurt fw-bold"
+                      className="nav-link nav-suppurt fw-bold fs-6"
                       to="commercial-refrigeration"
                       onClick={() => {
                         closeNavbar();
@@ -176,7 +176,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link  nav-suppurt fw-bold"
+                    className="nav-link  nav-suppurt fw-bold fs-6"
                     to="repair-maintenance"
                     onClick={() => {
                       closeNavbar();
@@ -188,7 +188,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link  nav-suppurt fw-bold"
+                    className="nav-link  nav-suppurt fw-bold fs-6"
                     to="our-projects"
                     onClick={() => {
                       closeNavbar();
@@ -200,7 +200,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="support nav-link fw-bold rounded-5 nav-suppurt text-center "
+                    className="support nav-link fw-bold fs-6 rounded-5 nav-suppurt text-center "
                     onClick={() => {
                       closeNavbar();
                       scrollToTop();
@@ -224,14 +224,14 @@ const Navbar = () => {
                 }`}
                 id="navbarSupportedContent"
               >
-                <div className="d-flex align-items-center review">
+                <div className="d-flex align-items-center">
                   <StarSvg />
-                  <p className="p-0 m-0 text-white fw-bold">Review</p>
+                  <p className="p-0 m-0 text-white fw-bold fs-6">Review</p>
                 </div>
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <ul className="navbar-nav mb-lg-0 my-1">
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-bold"
+                      className="nav-link  nav-suppurt fw-bold fs-6"
                       aria-current="page"
                       to="about-us"
                       onClick={() => {
@@ -244,7 +244,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-bold"
+                      className="nav-link  nav-suppurt fw-bold fs-6"
                       to="testimonials"
                       onClick={() => {
                         closeNavbar();
@@ -256,7 +256,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-bold"
+                      className="nav-link  nav-suppurt fw-bold fs-6"
                       to="blog"
                       onClick={() => {
                         closeNavbar();
@@ -268,7 +268,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link  nav-suppurt fw-bold"
+                      className="nav-link  nav-suppurt fw-bold fs-6"
                       to="contact-us"
                       onClick={() => {
                         closeNavbar();
@@ -278,11 +278,11 @@ const Navbar = () => {
                       Contact Us
                     </NavLink>
                   </li>
-                  <div className="d-flex gap-1 navbar-contact ">
-                    <li className=" d-flex nav-link bg-white  rounded-5 nav-suppurt  justify-content-center align-items-center">
-                      <p className="p-0 m-0">07473319304</p>
+                  <div className="d-flex gap-1 ">
+                    <li className="d-flex nav-link bg-white rounded-5 nav-suppurt  justify-content-center align-items-center">
+                      <p className="px-1 py-0 m-0 fs-6 nav-phone">07473319304</p>
                     </li>
-                    <li className="nav-item px-1">
+                    <li className="nav-item px-0">
                       <a
                         href="https://api.whatsapp.com//send?phone=00447473319304"
                         target="_blank"
@@ -291,7 +291,7 @@ const Navbar = () => {
                         aria-label="Email: info@theukeverest.co.uk"
                         className="whats-up-icon rounded-5 p-1"
                       >
-                        <BsWhatsapp className="" />
+                        <BsWhatsapp className="fs-6" />
                       </a>
                     </li>
                   </div>

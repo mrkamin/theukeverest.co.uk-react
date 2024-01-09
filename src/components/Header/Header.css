@@ -23,7 +23,15 @@
 .dropdown-menu {
   background: linear-gradient(#0097c8, #40c5f2);
   border: none !important;
-  margin-top: 17px !important;
+  margin-top: 32px !important;
+}
+
+.logo {
+  transition: all 800ms ease;
+}
+
+.doropdown-list {
+  transition: all 800ms ease;
 }
 
 .doropdown-list:hover {
@@ -33,6 +41,7 @@
 .nav-suppurt {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  transition: all 800ms ease;
 }
 
 .whats-up-icon {
@@ -42,6 +51,7 @@
   padding: 0.8rem;
   border-radius: 0.7rem;
   border: 1px solid transparent;
+  transition: all 800ms ease;
 }
 
 .whats-up-icon:hover {
@@ -50,18 +60,32 @@
   border-color: #1f1f38;
 }
 
+.nav-phone {
+  color: #0097c8;
+}
+
+.navbar-toggler-icon {
+  fill: #0097c8 !important;
+  background-color: #fff;
+}
+
 @media screen and (max-width: 1300px) {
   .header {
     padding: 5px 5px;
-    font-size: 15px;
+    font-size: 6px;
   }
 
-  .logo {
-    height: 45px;
+  .svg-logo {
+  height: 40px;
+  width: 90px;
+  }
+
+  .dropdown-menu {
+    margin-top: 10px !important;
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .header {
     padding: 0 0;
     font-size: 18px;
@@ -82,4 +106,9 @@
   .navbar-contact {
     flex-direction: column;
   }
+
+  .svg-logo {
+    height: 80px;
+    width: 150px;
+    }
 }
