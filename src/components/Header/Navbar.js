@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
-import StarSvg from './StarSvg';
-import { SvgLogo } from '../Svg';
+import { StarSvg, SvgLogo } from '../Svg';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
