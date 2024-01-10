@@ -8,7 +8,7 @@ const Testimonials = () => (
       <div>
         <h3>Air-conditioning & Refrigeration for Europe</h3>
         <h1>Testimonials</h1>
-        <Link to="/send-testimonials">
+        <Link to="/send-testimonials" className="email">
           Click here to send us your testimonial
         </Link>
       </div>

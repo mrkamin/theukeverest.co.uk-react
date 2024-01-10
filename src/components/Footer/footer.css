@@ -33,6 +33,10 @@
   background: linear-gradient(#40c5f2, #0097c8);
 }
 
+.email {
+  color: #1f1f38 !important;
+}
+
 @media screen and (max-width: 1366px) {
   .footer-container2 {
     height: 120px;
