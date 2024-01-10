@@ -9,6 +9,37 @@ const HomeSectionThree = () => {
     <>
       <div className="HomeSectionThree gap-3">
         <div className="w-100 homeSectionThreeItem p-4">
+          <h3>Commercial Refrigeration Europe</h3>
+          <p className="text-align-justify">
+            <span className="brand-color">
+              Installation, repair and maintenance.
+            </span>
+            {' '}
+            <br />
+            {' '}
+            <br />
+            Walk-in Chiller / Freezer (Cold Room), Display Fridge / Freezer,
+            Counter Fridge / Freezer, Upright Fridge / Freezer, Drink Fridge,
+            Blast Chiller, Bottle Cooler, Cellar Cooler, Ice Maker / Machine,
+            Sub Zero / Medical Refrigeration
+            {' '}
+            <br />
+            <br />
+            <span className="brand-color">24/7 repair service providing –</span>
+            quick response time, top class service and quality of first time
+            fix.
+          </p>
+          <div className="d-flex justify-content-end">
+            <NavLink
+              to="contact-us"
+              className=" read-more rounded-5 px-2"
+              onClick={scrollToTop}
+            >
+              Request a Call Out
+            </NavLink>
+          </div>
+        </div>
+        <div className="w-100 homeSectionThreeItem p-4">
           <h3>Air-Conditioning</h3>
           <p className="text-align-justify">
             We offer a
@@ -41,37 +72,6 @@ const HomeSectionThree = () => {
               }}
             >
               Discuss your project
-            </NavLink>
-          </div>
-        </div>
-        <div className="w-100 homeSectionThreeItem p-4">
-          <h3>Commercial Refrigeration Europe</h3>
-          <p className="text-align-justify">
-            <span className="brand-color">
-              Installation, repair and maintenance.
-            </span>
-            {' '}
-            <br />
-            {' '}
-            <br />
-            Walk-in Chiller / Freezer (Cold Room), Display Fridge / Freezer,
-            Counter Fridge / Freezer, Upright Fridge / Freezer, Drink Fridge,
-            Blast Chiller, Bottle Cooler, Cellar Cooler, Ice Maker / Machine,
-            Sub Zero / Medical Refrigeration
-            {' '}
-            <br />
-            <br />
-            <span className="brand-color">24/7 repair service providing –</span>
-            quick response time, top class service and quality of first time
-            fix.
-          </p>
-          <div className="d-flex justify-content-end">
-            <NavLink
-              to="contact-us"
-              className=" read-more rounded-5 px-2"
-              onClick={scrollToTop}
-            >
-              Request a Call Out
             </NavLink>
           </div>
         </div>

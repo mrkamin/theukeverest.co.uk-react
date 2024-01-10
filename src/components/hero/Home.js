@@ -57,10 +57,10 @@ const Home = () => {
       <div className="banner-msg d-flex flex-column position-absolute align-items-center">
         <div className="banner-msg-p d-flex flex-column align-items-center px-3">
           <h1 className="p-0 m-0 bannerUpAnimation text-white" ref={rightAnimition}>
-            Air Conditioning & Refrigeration Europe
+            The UK Everest Refrigeration Europe
           </h1>
           <p className="p-0 m-0 fs-5 paragraphAminiation text-white" ref={leftAnimation}>
-            Specialist Aircon Installation & Commercial Refrigeration Service
+            Specialist Fridges Installation & Commercial Refrigeration Service
           </p>
         </div>
         <div className="d-flex gap-2 mt-4 banner-link w-100 justify-content-center">

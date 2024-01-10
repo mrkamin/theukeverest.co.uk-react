@@ -9,6 +9,7 @@
   top: 200px;
   width: 100%;
   z-index: 2;
+  transition: all 1000ms ease;
 }
 
 .overlay {
