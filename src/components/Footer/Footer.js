@@ -55,7 +55,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             role="button"
             aria-label="Email: info@theukeverest.co.uk"
-            className="footer-socials rounded-5"
+            className="footer-socials footer-whats-up-icon rounded-5"
           >
             <BsWhatsapp className="contact__options-icon" />
           </a>
@@ -123,8 +123,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footer-container2 d-flex align-items-center justify-content-between px-5 mt-2">
-        <p className="p-0 m-0">
+      <div className="footer-container2 text-white d-flex align-items-center justify-content-between px-5 mt-2">
+        <p className="p-0 m-0 text-white">
           @2023 The Uk Everest LTD. Company number 12435t643. Office 7, 35-7
           Ludgate . All Rights Reserved
         </p>
@@ -137,7 +137,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             role="button"
             aria-label="Email: info@theukeverest.co.uk"
-            className="footer-socials rounded-5"
+            className="footer-socials rounded-5 facebook-icon"
           >
             <FaFacebook />
           </a>

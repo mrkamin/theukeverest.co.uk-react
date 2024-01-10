@@ -9,11 +9,17 @@
 
 .footer-socials {
   display: flex;
-  background-color: #1f1f38;
-  color: #fff;
-  padding: 0.8rem;
+  background-color: #fff;
+  color: #40c5f2 !important;
+  padding: 0.5rem;
   border-radius: 0.7rem;
   border: 1px solid transparent;
+}
+
+.footer-whats-up-icon {
+  background-color: #1f1f38;
+  color: #fff !important;
+  padding: 0.9rem;
 }
 
 .footer-socials:hover {
