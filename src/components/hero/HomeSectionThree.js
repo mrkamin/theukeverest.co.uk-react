@@ -40,7 +40,7 @@ const HomeSectionThree = () => {
           </div>
         </div>
         <div className="w-100 homeSectionThreeItem p-4">
-          <h3>Air-Conditioning</h3>
+          <h3>Our Projects</h3>
           <p className="text-align-justify">
             We offer a
             {' '}
@@ -48,7 +48,7 @@ const HomeSectionThree = () => {
               full design, installation and repair service
             </span>
             {' '}
-            for all types of air conditioning systems.
+            for all types of Refrigeration systems.
             <br />
             <br />
             {' '}
