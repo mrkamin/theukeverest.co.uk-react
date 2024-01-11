@@ -30,11 +30,12 @@ const SendTestimonials = () => {
   return (
     <div className="mt-5 py-5 container">
       <hr />
-      <section id="contact" className="testimonial-sect d-flex flex-column align-items-center">
+      <section
+        id="contact"
+        className="testimonial-sect d-flex flex-column align-items-center"
+      >
         <div className="w-50">
-          <h3>
-            Submit a Testimonial
-          </h3>
+          <h3>Submit a Testimonial</h3>
           <div className=" contact__container">
             {isEmailSent ? (
               <p className="w-100 ">
@@ -66,9 +67,25 @@ const SendTestimonials = () => {
                   required
                   className=""
                 />
-                <input type="text" name="company-name" placeholder="your company name" required className="" />
-                <input type="text" name="company-website" placeholder="your company website" className="" />
-                <input type="text" name="heading" placeholder="your position" className="" />
+                <input
+                  type="text"
+                  name="company-name"
+                  placeholder="your company name"
+                  required
+                  className=""
+                />
+                <input
+                  type="text"
+                  name="company-website"
+                  placeholder="your company website"
+                  className=""
+                />
+                <input
+                  type="text"
+                  name="heading"
+                  placeholder="your position"
+                  className=""
+                />
                 <textarea
                   name="message"
                   rows="7"
